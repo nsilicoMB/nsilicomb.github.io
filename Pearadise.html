@@ -1,0 +1,41 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	Click on the + or - icons to zoom in or out. Click on the Hybrid icon to see a satellite picture.
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Google Maps JavaScript API Example</title>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAAfYFF1QJxlR6oXyg5SQPnyhTi7SYHVN6KUw7zY93lgjEZtniCXxT3VZU069AKQHBXU-z_aol3PLdYAQ"
+    		type="text/javascript"></script>
+    <script type="text/javascript">
+    //<![CDATA[
+
+    function load() {
+      if (GBrowserIsCompatible()) {
+
+		var map = new GMap2(document.getElementById("map"));
+		map.addControl(new GSmallMapControl());
+		map.addControl(new GMapTypeControl());
+		map.setCenter(new GLatLng(38.507, -122.989), 14);
+
+		// Add 1 marker at boat ramp locations on the map
+		var bounds = map.getBounds();
+		var southWest = bounds.getSouthWest();
+		var northEast = bounds.getNorthEast();
+		var lngSpan = northEast.lng() - southWest.lng();
+		var latSpan = northEast.lat() - southWest.lat();
+		for (var i = 0; i < 1; i++) {
+		  var point = new GLatLng(38.507, -122.989);
+		  map.addOverlay(new GMarker(point));
+		}
+
+      }
+    }
+
+    //]]>
+    </script>
+  </head>
+
+  <body onload="load()" onunload="GUnload()">
+    <div id="map" style="width: 800px; height: 500px"></div>
+  </body>
+</html>
+
