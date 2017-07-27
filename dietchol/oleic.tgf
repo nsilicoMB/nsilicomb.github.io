@@ -1,0 +1,194 @@
+
+$Version: 3 
+$Totobjs: 42 
+$Pen_RGB2Color: 0 0 0 
+$Fill_RGB2Color: 0 0 0 
+$Font: "Fixedsys" 90 0 
+
+$Obj: atom 
+$Atom_coords: 570.00000 690.00000 
+$Atom_number: 1 
+
+$Obj: atom 
+$Atom_coords: 725.88452 600.00000 
+$Atom_number: 2 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 0 1 
+
+$Obj: atom 
+$Atom_coords: 881.76917 690.00000 
+$Atom_number: 3 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 1 3 
+
+$Obj: atom 
+$Atom_coords: 1037.65369 600.00000 
+$Atom_number: 4 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 3 5 
+
+$Obj: atom 
+$Atom_coords: 1193.53833 690.00000 
+$Atom_number: 5 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 5 7 
+
+$Obj: atom 
+$Atom_coords: 1349.42285 599.99988 
+$Atom_number: 6 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 7 9 
+
+$Obj: atom 
+$Atom_coords: 1505.30737 690.00000 
+$Atom_number: 7 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 9 11 
+
+$Obj: atom 
+$Atom_coords: 1661.19202 599.99988 
+$Atom_number: 8 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 11 13 
+
+$Obj: atom 
+$Atom_coords: 1817.07666 690.00000 
+$Atom_number: 9 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 13 15 
+
+$Obj: atom 
+$Atom_coords: 1972.96118 599.99988 
+$Atom_number: 10 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 15 17 
+$Bond_type: double 
+
+$Obj: atom 
+$Atom_coords: 2128.84570 689.99976 
+$Atom_number: 11 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 17 19 
+
+$Obj: atom 
+$Atom_coords: 2284.73022 599.99988 
+$Atom_number: 12 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 19 21 
+
+$Obj: atom 
+$Atom_coords: 2440.61475 689.99976 
+$Atom_number: 13 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 21 23 
+
+$Obj: atom 
+$Atom_coords: 2596.49927 599.99976 
+$Atom_number: 14 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 23 25 
+
+$Obj: atom 
+$Atom_coords: 2752.38403 689.99976 
+$Atom_number: 15 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 25 27 
+
+$Obj: atom 
+$Atom_coords: 2908.26855 599.99976 
+$Atom_number: 16 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 27 29 
+
+$Obj: atom 
+$Atom_coords: 3064.15308 689.99976 
+$Atom_number: 17 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 29 31 
+
+$Obj: atom 
+$Font: "Arial" 100 1 
+$Atom_coords: 570.00000 870.00000 
+$Atom_type: 8 
+$Atom_number: 18 
+$Atom_dispflags: 0001 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 0 33 
+$Bond_type: double 
+
+$Obj: atom 
+$Font: "Arial" 100 1 
+$Atom_coords: 414.11542 600.00000 
+$Atom_type: 8 
+$Atom_number: 19 
+$Atom_dispflags: 0001 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 0 35 
+
+$Obj: atom 
+$Atom_coords: 3220.03760 599.99976 
+$Atom_number: 20 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 31 37 
+
+$Obj: atom 
+$Atom_coords: 3375.92212 689.99976 
+$Atom_number: 21 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 37 39 
+
+$Obj: text 
+$Transparent: 
+$Obj_coords: 1643 734 2032 927 
+$MDLEdittext: 0 0011 
+{\rtf1\defformat\pc 
+{\fonttbl 
+   {\f2996\nil Fixedsys;}
+   {\f2740\nil Fixedsys;}
+   {\f2728\nil Arial;}
+   {\f3780\nil Arial;}
+}
+\plain 
+\f3780\fs36\b 18:1
+}
+$Endsketch: 

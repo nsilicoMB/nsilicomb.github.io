@@ -1,0 +1,310 @@
+
+$Version: 3 
+$Totobjs: 60 
+$Pen_RGB2Color: 0 0 0 
+$Fill_RGB2Color: 0 0 0 
+$Font: "Fixedsys" 90 0 
+
+$Obj: mol 
+$RxnAtch: -1 -1 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 1619.00000 2133.00000 
+$Atom_number: 1 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 1795.00000 2103.00000 
+$Atom_number: 2 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 1945.00000 2033.00000 
+$Atom_number: 3 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 1723.00000 1949.00000 
+$Atom_number: 4 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 1 2 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 2 11 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 10 3 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 3 4 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 4 1 
+$Bond_topo: ring 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2115.34351 1973.97418 
+$Atom_number: 5 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2023.47107 2138.53223 
+$Atom_number: 6 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2197.19702 2207.82031 
+$Atom_number: 7 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2406.87109 2187.39282 
+$Atom_number: 8 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 19 10 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 10 11 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 11 12 
+$Bond_type: double 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 12 13 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 13 20 
+$Bond_topo: ring 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2350.00000 2060.00000 
+$Atom_number: 9 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2511.00000 2003.00000 
+$Atom_number: 10 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2676.08228 1959.86401 
+$Atom_number: 11 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2453.97766 1876.22937 
+$Atom_number: 12 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 19 20 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 20 29 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 28 21 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 21 22 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 22 19 
+$Bond_topo: ring 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2849.02026 1902.87158 
+$Atom_number: 13 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2745.04297 2086.05762 
+$Atom_number: 14 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2905.01440 2164.27808 
+$Atom_number: 15 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 3088.40210 2095.42896 
+$Atom_number: 16 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 3035.02246 1945.95166 
+$Atom_number: 17 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 28 29 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 29 30 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 30 31 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 31 32 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 32 28 
+$Bond_topo: ring 
+
+$Obj: atom 
+$Font: "Arial" 116 1 
+$Parent: 0 
+$Atom_coords: 2118.34583 1780.32397 
+$Atom_number: 18 
+$Atom_dispflags: 0021 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 10 38 
+$Bond_stereo_type: up 
+
+$Obj: atom 
+$Font: "Arial" 116 1 
+$Parent: 0 
+$Atom_coords: 2852.28467 1703.24585 
+$Atom_number: 19 
+$Atom_dispflags: 0021 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 28 40 
+$Bond_stereo_type: up 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 3183.00000 1796.00000 
+$Atom_number: 20 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 32 42 
+$Bond_stereo_type: up 
+
+$Obj: atom 
+$Font: "Arial" 116 1 
+$Parent: 0 
+$Atom_coords: 3127.07275 1594.49786 
+$Atom_number: 21 
+$Atom_dispflags: 0021 
+$Atom_hpos: 1 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 42 44 
+
+$Obj: atom 
+$Font: "Arial" 116 1 
+$Parent: 0 
+$Atom_coords: 1428.00000 2033.00000 
+$Atom_type: 8 
+$Atom_number: 22 
+$Atom_dispflags: 0001 
+$Atom_hpos: 2 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 1 46 
+$Bond_stereo_type: up 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 3386.22070 1849.24487 
+$Atom_number: 23 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 42 48 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 3533.51440 1699.98767 
+$Atom_number: 24 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 48 50 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 3736.73535 1752.23254 
+$Atom_number: 25 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 50 52 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 3884.02881 1602.97528 
+$Atom_number: 26 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 52 54 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 4086.24976 1656.22015 
+$Atom_number: 27 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 54 56 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 3828.10156 1401.47314 
+$Atom_number: 28 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 54 58 
+$Endsketch: 

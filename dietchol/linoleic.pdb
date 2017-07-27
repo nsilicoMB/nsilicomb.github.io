@@ -1,0 +1,107 @@
+REMARK Linoleic Acid
+REMARK Model by Michael B. Bolger , 3/4/96
+HETATM    1  C           1      10.603  -6.950  -0.000
+HETATM    2  C           2      10.603  -5.430  -0.000
+HETATM    3  C           3       9.151  -4.917  -0.000
+HETATM    4  C           4       9.151  -3.377  -0.000
+HETATM    5  C           5       7.699  -2.863  -0.000
+HETATM    6  C           6       7.699  -1.323  -0.000
+HETATM    7  C           7       6.247  -0.810  -0.000
+HETATM    8  C           8       6.247   0.730  -0.000
+HETATM    9  C           9       4.814   1.237  -0.000
+HETATM   10  C          10       4.569   2.554  -0.000
+HETATM   11  C          11       3.136   3.061  -0.000
+HETATM   12  C          12       3.136   4.581  -0.000
+HETATM   13  C          13       1.976   5.251  -0.000
+HETATM   14  C          14       1.976   6.771  -0.000
+HETATM   15  C          15       0.524   7.284  -0.000
+HETATM   16  C          16       0.524   8.824  -0.000
+HETATM   17  C          17      -0.928   9.338  -0.000
+HETATM   18  O          18      11.659  -7.560  -0.000
+HETATM   19  O          19       9.425  -7.630  -0.000
+HETATM   20  C          20      -0.928  10.878  -0.000
+HETATM   21  H          21      11.117  -5.067   0.890
+HETATM   22  H          22      11.117  -5.067  -0.890
+HETATM   23  H          23       8.637  -5.280  -0.890
+HETATM   24  H          24       8.637  -5.280   0.890
+HETATM   25  H          25       9.665  -3.013   0.890
+HETATM   26  H          26       9.665  -3.013  -0.890
+HETATM   27  H          27       7.185  -3.227  -0.890
+HETATM   28  H          28       7.185  -3.227   0.890
+HETATM   29  H          29       8.213  -0.960   0.890
+HETATM   30  H          30       8.213  -0.960  -0.890
+HETATM   31  H          31       5.733  -1.173  -0.890
+HETATM   32  H          32       5.733  -1.173   0.890
+HETATM   33  H          33       6.761   1.093   0.890
+HETATM   34  H          34       6.761   1.093  -0.890
+HETATM   35  H          35       3.993   0.535  -0.000
+HETATM   36  H          36       5.390   3.256  -0.000
+HETATM   37  H          37       2.622   2.698  -0.890
+HETATM   38  H          38       2.622   2.698   0.890
+HETATM   39  H          39       4.071   5.121  -0.000
+HETATM   40  H          40       1.040   4.711  -0.000
+HETATM   41  H          41       2.489   7.134   0.890
+HETATM   42  H          42       2.489   7.134  -0.890
+HETATM   43  H          43       0.010   6.921  -0.890
+HETATM   44  H          44       0.010   6.921   0.890
+HETATM   45  H          45       1.037   9.188   0.890
+HETATM   46  H          46       1.037   9.188  -0.890
+HETATM   47  H          47      -1.442   8.974  -0.890
+HETATM   48  H          48      -1.442   8.974   0.890
+HETATM   49  H          49       9.600  -8.574  -0.000
+HETATM   50  H          50      -1.956  11.241  -0.000
+HETATM   51  H          51      -0.415  11.241   0.890
+HETATM   52  H          52      -0.414  11.241  -0.890
+CONECT    1    2   18   19
+CONECT    2    1    3   21   22
+CONECT    3    2    4   23   24
+CONECT    4    3    5   25   26
+CONECT    5    4    6   27   28
+CONECT    6    5    7   29   30
+CONECT    7    6    8   31   32
+CONECT    8    7    9   33   34
+CONECT    9    8   10   35
+CONECT   10    9   11   36
+CONECT   11   10   12   37   38
+CONECT   12   11   13   39
+CONECT   13   12   14   40
+CONECT   14   13   15   41   42
+CONECT   15   14   16   43   44
+CONECT   16   15   17   45   46
+CONECT   17   16   20   47   48
+CONECT   18    1
+CONECT   19    1   49
+CONECT   20   17   50   51   52
+CONECT   21    2
+CONECT   22    2
+CONECT   23    3
+CONECT   24    3
+CONECT   25    4
+CONECT   26    4
+CONECT   27    5
+CONECT   28    5
+CONECT   29    6
+CONECT   30    6
+CONECT   31    7
+CONECT   32    7
+CONECT   33    8
+CONECT   34    8
+CONECT   35    9
+CONECT   36   10
+CONECT   37   11
+CONECT   38   11
+CONECT   39   12
+CONECT   40   13
+CONECT   41   14
+CONECT   42   14
+CONECT   43   15
+CONECT   44   15
+CONECT   45   16
+CONECT   46   16
+CONECT   47   17
+CONECT   48   17
+CONECT   49   19
+CONECT   50   20
+CONECT   51   20
+CONECT   52   20
+END

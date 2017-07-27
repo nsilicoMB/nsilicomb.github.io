@@ -1,0 +1,870 @@
+
+$Version: 3 
+$Totobjs: 180 
+$Pen_RGB2Color: 0 0 0 
+$Fill_RGB2Color: 0 0 0 
+$Font: "Fixedsys" 90 0 
+
+$Obj: mol 
+$RxnAtch: -1 -1 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 945.00000 1112.00000 
+$Atom_number: 1 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 1121.00000 1082.00000 
+$Atom_number: 2 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 1271.00000 1012.00000 
+$Atom_number: 5 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 1049.00000 928.00000 
+$Atom_number: 6 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 1 2 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 2 11 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 10 3 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 3 4 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 4 1 
+$Bond_topo: ring 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 1441.34351 952.97417 
+$Atom_number: 4 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 1349.47107 1117.53229 
+$Atom_number: 3 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 1523.19701 1186.82030 
+$Atom_number: 9 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 1732.87108 1166.39281 
+$Atom_number: 10 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 19 10 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 10 11 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 11 12 
+$Bond_type: double 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 12 13 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 13 20 
+$Bond_topo: ring 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 1676.00000 1039.00000 
+$Atom_number: 8 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 1837.00000 982.00000 
+$Atom_number: 7 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2002.08228 938.86400 
+$Atom_number: 13 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 1779.97765 855.22935 
+$Atom_number: 14 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 19 20 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 20 29 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 28 21 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 21 22 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 22 19 
+$Bond_topo: ring 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2175.02025 881.87157 
+$Atom_number: 12 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2071.04297 1065.05768 
+$Atom_number: 11 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2231.01439 1143.27808 
+$Atom_number: 15 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2414.40210 1074.42888 
+$Atom_number: 16 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2361.02245 924.95164 
+$Atom_number: 17 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 28 29 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 29 30 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 30 31 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 31 32 
+$Bond_topo: ring 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 32 28 
+$Bond_topo: ring 
+
+$Obj: atom 
+$Font: "Arial" 116 1 
+$Parent: 0 
+$Atom_coords: 1444.34583 759.32396 
+$Atom_number: 18 
+$Atom_dispflags: 0021 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 10 38 
+
+$Obj: atom 
+$Font: "Arial" 116 1 
+$Parent: 0 
+$Atom_coords: 2178.28455 682.24585 
+$Atom_number: 19 
+$Atom_dispflags: 0021 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 28 40 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2509.00000 775.00000 
+$Atom_number: 20 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 32 42 
+$Bond_stereo_type: up 
+
+$Obj: atom 
+$Font: "Arial" 116 1 
+$Parent: 0 
+$Atom_coords: 2453.07274 573.49785 
+$Atom_number: 22 
+$Atom_dispflags: 0021 
+$Atom_hpos: 1 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 42 44 
+
+$Obj: atom 
+$Font: "Arial" 116 1 
+$Parent: 0 
+$Atom_coords: 754.00000 1012.00000 
+$Atom_type: 8 
+$Atom_number: 23 
+$Atom_dispflags: 0001 
+$Atom_hpos: 2 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 1 46 
+$Bond_stereo_type: up 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2712.22083 828.24489 
+$Atom_number: 24 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 42 48 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 2859.51447 678.98766 
+$Atom_number: 27 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 48 50 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 3062.73528 731.23253 
+$Atom_number: 28 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 50 52 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 3210.02892 581.97527 
+$Atom_number: 29 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 52 54 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 3412.24976 635.22014 
+$Atom_number: 30 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 54 56 
+
+$Obj: atom 
+$Parent: 0 
+$Atom_coords: 3154.10167 380.47316 
+$Atom_number: 31 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 54 58 
+
+$Obj: atom 
+$Atom_coords: 914.00000 1543.00000 
+$Atom_number: 32 
+
+$Obj: atom 
+$Atom_coords: 1069.88457 1452.99997 
+$Atom_number: 33 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 60 61 
+
+$Obj: atom 
+$Atom_coords: 1225.76912 1542.99997 
+$Atom_number: 34 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 61 63 
+
+$Obj: atom 
+$Atom_coords: 1381.65369 1452.99994 
+$Atom_number: 35 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 63 65 
+
+$Obj: atom 
+$Atom_coords: 1537.53827 1542.99994 
+$Atom_number: 36 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 65 67 
+
+$Obj: atom 
+$Atom_coords: 1693.42284 1452.99991 
+$Atom_number: 37 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 67 69 
+
+$Obj: atom 
+$Atom_coords: 1849.30739 1542.99991 
+$Atom_number: 38 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 69 71 
+
+$Obj: atom 
+$Atom_coords: 2005.19196 1452.99988 
+$Atom_number: 39 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 71 73 
+
+$Obj: atom 
+$Atom_coords: 2161.07654 1542.99988 
+$Atom_number: 40 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 73 75 
+
+$Obj: atom 
+$Atom_coords: 2316.96111 1452.99985 
+$Atom_number: 41 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 75 77 
+
+$Obj: atom 
+$Atom_coords: 2472.84566 1542.99985 
+$Atom_number: 42 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 77 79 
+
+$Obj: atom 
+$Atom_coords: 2628.73024 1452.99982 
+$Atom_number: 43 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 79 81 
+
+$Obj: atom 
+$Atom_coords: 2784.61481 1542.99982 
+$Atom_number: 44 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 81 83 
+
+$Obj: atom 
+$Atom_coords: 2940.49936 1452.99979 
+$Atom_number: 45 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 83 85 
+
+$Obj: atom 
+$Atom_coords: 3096.38393 1542.99979 
+$Atom_number: 46 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 85 87 
+
+$Obj: atom 
+$Atom_coords: 3252.26851 1452.99976 
+$Atom_number: 47 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 87 89 
+
+$Obj: atom 
+$Font: "Arial" 100 1 
+$Atom_coords: 914.00002 1722.99997 
+$Atom_type: 8 
+$Atom_number: 49 
+$Atom_dispflags: 0001 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 60 91 
+$Bond_type: double 
+
+$Obj: atom 
+$Font: "Arial" 100 1 
+$Atom_coords: 758.11542 1453.00000 
+$Atom_type: 8 
+$Atom_number: 50 
+$Atom_dispflags: 0001 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 60 93 
+
+$Obj: atom 
+$Atom_coords: 906.00000 2114.00000 
+$Atom_number: 51 
+
+$Obj: atom 
+$Atom_coords: 1061.88457 2023.99997 
+$Atom_number: 52 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 95 96 
+
+$Obj: atom 
+$Atom_coords: 1217.76912 2113.99997 
+$Atom_number: 53 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 96 98 
+
+$Obj: atom 
+$Atom_coords: 1373.65369 2023.99994 
+$Atom_number: 54 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 98 100 
+
+$Obj: atom 
+$Atom_coords: 1529.53827 2113.99994 
+$Atom_number: 55 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 100 102 
+
+$Obj: atom 
+$Atom_coords: 1685.42284 2023.99991 
+$Atom_number: 56 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 102 104 
+
+$Obj: atom 
+$Atom_coords: 1841.30739 2113.99991 
+$Atom_number: 57 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 104 106 
+
+$Obj: atom 
+$Atom_coords: 1997.19196 2023.99988 
+$Atom_number: 58 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 106 108 
+
+$Obj: atom 
+$Atom_coords: 2153.07654 2113.99988 
+$Atom_number: 59 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 108 110 
+
+$Obj: atom 
+$Atom_coords: 2308.96111 2023.99985 
+$Atom_number: 60 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 110 112 
+$Bond_type: double 
+
+$Obj: atom 
+$Atom_coords: 2464.84566 2113.99985 
+$Atom_number: 61 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 112 114 
+
+$Obj: atom 
+$Atom_coords: 2620.73024 2023.99982 
+$Atom_number: 62 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 114 116 
+
+$Obj: atom 
+$Atom_coords: 2776.61481 2113.99982 
+$Atom_number: 63 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 116 118 
+
+$Obj: atom 
+$Atom_coords: 2932.49936 2023.99979 
+$Atom_number: 64 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 118 120 
+
+$Obj: atom 
+$Atom_coords: 3088.38393 2113.99979 
+$Atom_number: 65 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 120 122 
+
+$Obj: atom 
+$Atom_coords: 3244.26851 2023.99976 
+$Atom_number: 66 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 122 124 
+
+$Obj: atom 
+$Atom_coords: 3400.15308 2113.99976 
+$Atom_number: 67 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 124 126 
+
+$Obj: atom 
+$Font: "Arial" 100 1 
+$Atom_coords: 906.00002 2293.99997 
+$Atom_type: 8 
+$Atom_number: 68 
+$Atom_dispflags: 0001 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 95 128 
+$Bond_type: double 
+
+$Obj: atom 
+$Font: "Arial" 100 1 
+$Atom_coords: 750.11542 2024.00000 
+$Atom_type: 8 
+$Atom_number: 69 
+$Atom_dispflags: 0001 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 95 130 
+
+$Obj: atom 
+$Atom_coords: 3556.03763 2023.99973 
+$Atom_number: 71 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 126 132 
+
+$Obj: atom 
+$Atom_coords: 903.00000 2623.00000 
+$Atom_number: 73 
+
+$Obj: atom 
+$Atom_coords: 1058.88457 2532.99997 
+$Atom_number: 74 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 134 135 
+
+$Obj: atom 
+$Atom_coords: 1214.76912 2622.99997 
+$Atom_number: 75 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 135 137 
+
+$Obj: atom 
+$Atom_coords: 1370.65369 2532.99994 
+$Atom_number: 76 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 137 139 
+
+$Obj: atom 
+$Atom_coords: 1526.53827 2622.99994 
+$Atom_number: 77 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 139 141 
+
+$Obj: atom 
+$Atom_coords: 1682.42284 2532.99991 
+$Atom_number: 78 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 141 143 
+
+$Obj: atom 
+$Atom_coords: 1838.30739 2622.99991 
+$Atom_number: 79 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 143 145 
+
+$Obj: atom 
+$Atom_coords: 1994.19196 2532.99988 
+$Atom_number: 80 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 145 147 
+
+$Obj: atom 
+$Atom_coords: 2150.07654 2622.99988 
+$Atom_number: 81 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 147 149 
+
+$Obj: atom 
+$Atom_coords: 2305.96111 2532.99985 
+$Atom_number: 82 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 149 151 
+$Bond_type: double 
+
+$Obj: atom 
+$Atom_coords: 2461.84566 2622.99985 
+$Atom_number: 83 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 151 153 
+
+$Obj: atom 
+$Atom_coords: 2617.73024 2532.99982 
+$Atom_number: 84 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 153 155 
+
+$Obj: atom 
+$Atom_coords: 2773.61481 2622.99982 
+$Atom_number: 85 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 155 157 
+$Bond_type: double 
+
+$Obj: atom 
+$Atom_coords: 2929.49936 2532.99979 
+$Atom_number: 86 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 157 159 
+
+$Obj: atom 
+$Atom_coords: 3085.38393 2622.99979 
+$Atom_number: 87 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 159 161 
+
+$Obj: atom 
+$Atom_coords: 3241.26851 2532.99976 
+$Atom_number: 88 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 161 163 
+
+$Obj: atom 
+$Atom_coords: 3397.15308 2622.99976 
+$Atom_number: 89 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 163 165 
+
+$Obj: atom 
+$Font: "Arial" 100 1 
+$Atom_coords: 903.00002 2802.99997 
+$Atom_type: 8 
+$Atom_number: 90 
+$Atom_dispflags: 0001 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 134 167 
+$Bond_type: double 
+
+$Obj: atom 
+$Font: "Arial" 100 1 
+$Atom_coords: 747.11542 2533.00000 
+$Atom_type: 8 
+$Atom_number: 91 
+$Atom_dispflags: 0001 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 134 169 
+
+$Obj: atom 
+$Atom_coords: 3553.03763 2532.99973 
+$Atom_number: 92 
+
+$Obj: bond 
+$Pen_width: 7 
+$Bond_atoms: 165 171 
+
+$Obj: text 
+$Transparent: 
+$Obj_coords: 3762 749 4871 967 
+$MDLEdittext: 0 0011 
+{\rtf1\defformat\pc 
+{\fonttbl 
+   {\f3788\nil Fixedsys;}
+   {\f1472\nil Arial;}
+}
+\plain 
+\f1472\fs38\b Cholesterol
+}
+
+$Obj: text 
+$Transparent: 
+$Obj_coords: 3792 1378 5126 1596 
+$MDLEdittext: 0 0011 
+{\rtf1\defformat\pc 
+{\fonttbl 
+   {\f504\nil Arial;}
+}
+\plain 
+\f504\fs38\b Palmitic acid
+}
+
+$Obj: text 
+$Transparent: 
+$Obj_coords: 3807 1963 5141 2181 
+$MDLEdittext: 0 0011 
+{\rtf1\defformat\pc 
+{\fonttbl 
+   {\f2356\nil Arial;}
+}
+\plain 
+\f2356\fs38\b Oleic acid
+}
+
+$Obj: text 
+$Transparent: 
+$Obj_coords: 3807 2457 5141 2675 
+$MDLEdittext: 0 0011 
+{\rtf1\defformat\pc 
+{\fonttbl 
+   {\f3928\nil Arial;}
+}
+\plain 
+\f3928\fs38\b Linoleic acid
+}
+
+$Obj: text 
+$Transparent: 
+$Obj_coords: 1125 1588 1514 1781 
+$MDLEdittext: 0 0011 
+{\rtf1\defformat\pc 
+{\fonttbl 
+   {\f1640\nil Arial;}
+   {\f1012\nil Arial;}
+}
+\plain 
+\f1012\fs36\b 16:0
+}
+
+$Obj: text 
+$Transparent: 
+$Obj_coords: 1979 2158 2368 2351 
+$MDLEdittext: 0 0011 
+{\rtf1\defformat\pc 
+{\fonttbl 
+   {\f3088\nil Arial;}
+}
+\plain 
+\f3088\fs36\b 18:1
+}
+
+$Obj: text 
+$Transparent: 
+$Obj_coords: 2144 2637 2533 2830 
+$MDLEdittext: 0 0011 
+{\rtf1\defformat\pc 
+{\fonttbl 
+   {\f1028\nil Arial;}
+}
+\plain 
+\f1028\fs36\b 18:2
+}
+$Endsketch: 
