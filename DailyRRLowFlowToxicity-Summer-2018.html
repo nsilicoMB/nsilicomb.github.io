@@ -1,0 +1,246 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+<HTML>
+<HEAD>
+
+<TITLE>Daily Graph of Russian River Low Flow Toxicity</TITLE>
+
+</HEAD>
+<BODY ALIGN=LEFT BACKGROUND="./images/RRKayak-BnW-Emboss-Wide.jpg">
+
+<BODY BACKGROUND="./images/ContentsBkg-KayakEmboss.jpg" BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#5500FF" ALINK="#0000FF">
+
+
+<TABLE WIDTH=900 BORDER=0>
+<TR>
+
+	<TD ALIGN=CENTER VALIGN=TOP WIDTH="25"><A HREF="../index.html"><IMG SRC="./images/Microcystin-no-background.gif" WIDTH="120" HEIGHT="130" BORDER="0"></A></TD>
+	<TD ALIGN=CENTER VALIGN=TOP WIDTH="25"></TD>
+
+<TD WIDTH=610>
+<CENTER><IMG SRC="./images/LowFlowLogo.jpg" WIDTH="493" HEIGHT="77"></CENTER>
+
+<BLOCKQUOTE>
+<H2 ALIGN=LEFT><FONT COLOR="#78021C">by</FONT></H2>
+<A HREF="../biosketch2.html"><H2 ALIGN=LEFT><FONT COLOR="#78021C">Michael B. Bolger, Ph.D.</FONT></H2></A>
+
+<P>
+<H2 ALIGN=LEFT><FONT COLOR="#78021C">Daily Graph of Russian River Low Flow Toxicity</FONT></H2>
+
+<A HREF="./Periodic Blog on Russian River Toxicity.html">Click here for a Periodic Blog on Observed Cyanotoxin levels and Factors that influence Russian River Toxicity</A>
+<br>
+<br>
+<b>IMPORTANT DISCLAIMER:
+The prediction of anatoxin concentrations and the risk of toxicity to humans and animals presented on this web page should not be used to
+make decisions about personal safety or the use of Russian River recreation opportunities.</b> These predictions are based on a simple mathematical
+relationship between river water temperature, river flow, and air temperature that will never be absolutely accurate. My intention for the
+publication of this model is to help the Sonoma County Water Agency and the Sonoma County Board of Supervisors to exercise adaptive management
+of Russian River flow and thus avoid the bloom of blue-green algae and potential river toxicity.
+<br>
+<br>
+Sonoma County residents: Feel free to check this web site as often as you'd like to see the predicted Anatoxin-a concentration in Russian River.
+This simulation model does not provide specific geographical locations along the river for these predictions. The model uses daily river flow data
+from the gauge at Hacienda, water temperature at 3:00 PM in Guerneville. and air temperature also from Guerneville. If you'd like more
+detailed information about the equations used and background of the model development you can download the following report.
+<A HREF="./Bolger-Report-on-Water-Quality-and-Cyanotoxin-Levels-due-to-Lower-Flows-2016-09-11-w-Refs.pdf">Report on Water Quality, Draft EIR, and Simulation Model</A>
+<br>
+<A HREF="./DailyRRLowFlowToxicity-Derivative.html">Click here for a plot of the predicted change in daily anatoxin concentration</A>
+<br>
+Please don't let the Sonoma County Board of Supervisors (SCBOD) ignore this easily avoidable and potentially life-threatening
+Russian River blue-green algae related toxicity! Encourage your supervisor and the Sonoma County Water Agency (SCWA) to adopt adaptive management of
+Russian River flows. Let's use an advanced computer model to predict when to expect a bloom of blue-green algae and the subsequent increase in cyanotoxin
+levels, and then adjust the river flow to easily avoid the potential toxicity.<br>
+Click <A HREF="./DailyRRLowFlowToxicity.html">here</A> to see the historical predictions from 2015 to present.<br>
+NOTE: The water temperature has been <b>divided by 10</b> so it can be plotted with the anatoxin-a concentrations on the Y-axis.<br>
+
+  <head>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+<!--        ['date', 'data1', 'data2', 'percentage'],
+<!--          data.addColumn('string', 'Date');
+<!--          data.addColumn('number', 'Anatoxin');
+<!--          data.addRows([
+-->
+			['Date', 'Obs. Anatoxin-a','Pred. Anatoxin-a', 'Water Temp./10', 'RR Flow (cfs)'],
+			['6/1/2018 ',     0, 0,6.998, 303],
+			['6/2/2018 ',     0, 0,7.196, 305],
+			['6/3/2018 ',     0, 0,7.412, 281],
+			['6/4/2018 ',     0, 0,7.466, 257],
+			['6/5/2018 ',     0, 0,7.34, 238],
+			['6/6/2018 ',     0, 0,7.196, 230],
+			['6/7/2018 ',     0, 0,7.16, 222],
+			['6/8/2018 ',     0, 0,7.196, 212],
+			['6/9/2018 ',     0, 0,7.124, 204],
+			['6/10/2018',     0, 0,7.07, 199],
+			['6/11/2018',     0, 0,7.07, 195],
+			['6/12/2018',     0, 0,7.25, 186],
+			['6/13/2018',     0, 0,7.412, 178],
+			['6/14/2018',     0, 0,7.448, 170],
+			['6/15/2018',     0, 0,7.34, 166],
+			['6/16/2018',     0, 0,7.232, 165],
+			['6/17/2018',     0, 0,7.034, 164],
+			['6/18/2018',     0, 0,7.052, 162],
+			['6/19/2018',     0, 0,7.124, 157],
+			['6/20/2018',     0, 0,7.232, 156],
+			['6/21/2018',     0, 0,7.232, 152],
+			['6/22/2018',     0, 0,7.304, 145],
+			['6/23/2018',     0, 0,7.52, 132],
+			['6/24/2018',     0, 0,7.52, 89],
+			['6/25/2018',     0, 0,7.502, 86],
+			['6/26/2018',     0, 0,7.43, 84],
+			['6/27/2018',     0, 0,7.322, 72],
+			['6/28/2018',     0, 0.509921790598135,7.214, 71],
+			['6/29/2018',     0, 0.8347473889788,7.394, 76],
+			['6/30/2018',     0, 0.905888965525218,7.52, 88],
+			['7/1/2018 ',     0, 1.0376930073307,7.538, 101],
+			['7/2/2018 ',     0, 1.51765450660377,7.412, 96],
+			['7/3/2018 ',     0, 2.22166961157658,7.232, 103],
+			['7/4/2018 ',     0, 2.79722245160614,6.89, 110],
+			['7/5/2018 ',     0, 3.24656022357739,6.998, 113],
+			['7/6/2018 ',     0, 3.31679467177706,6.89, 109],
+			['7/7/2018 ',     0, 2.8114158095734,7.142, 100],
+			['7/8/2018 ',     0, 1.52847740423482,7.268, 95],
+			['7/9/2018 ',     0, 0.397424256972636,7.34, 96],
+			['7/10/2018',     0, 0,7.502, 91],
+			['7/11/2018',     0, 0,7.484, 89],
+			['7/12/2018',     0, 0,7.484, 94],
+			['7/13/2018',     0, 0,7.25, 102],
+			['7/14/2018',     0, 0.260649788358995,7.358, 105],
+			['7/15/2018',     0, 0.643371578957129,7.358, 108],
+			['7/16/2018',     0, 1.05283066876182,7.358, 109],
+			['7/17/2018',     0, 0.707232853038661,7.304, 110],
+			['7/18/2018',     0, 0.510144723880694,7.358, 108],
+			['7/19/2018',     0, 0.213286139094292,7.358, 104],
+			['7/20/2018',     0, 0,7.322, 93],
+			['7/21/2018',     0, 0,7.412, 85],
+			['7/22/2018',     0, 0,7.484, 92],
+			['7/23/2018',     0, 0,7.466, 92],
+			['7/24/2018',     0, 0,7.466, 99],
+			['7/25/2018',     0, 0.260075937654159,7.466, 89],
+			['7/26/2018',     0, 0.4250769295054,7.394, 92],
+			['7/27/2018',     0, 0.625477921356639,7.34, 90],
+			['7/28/2018',     0, 0.749561747044661,7.268, 93],
+			['7/29/2018',     0, 0.969683537642794,7.232, 97],
+			['7/30/2018',     0.16, 1.04768452949403,7.196, 102],
+			['7/31/2018',     0, 0.988173297289482,7.196, 101],
+			['8/1/2018 ',     0, 0.743111932873486,7.214, 99],
+			['8/2/2018 ',     0, 0.39919455044722,7.25, 95],
+			['8/3/2018 ',     0, 0,7.196, 92],
+			['8/4/2018 ',     0, 0,7.304, 88],
+			['8/5/2018 ',     0, 0,7.214, 91],
+			['8/6/2018 ',     0.17, 0,7.34, 97],
+			['8/7/2018 ',     0, 0,7.052, 100],
+			['8/8/2018 ',     0, 0.0543528400295674,7.034, 99],
+			['8/9/2018 ',     0, 0,7.052, 101],
+			['8/10/2018',     0, 0,7.088, 100],
+			['8/11/2018',     0, 0,7.232, 102],
+			['8/12/2018',     0, 0,7.34, 106],
+			['8/13/2018',     0, 0,7.232, 111],
+			['8/14/2018',     0, 0,7.088, 116],
+			['8/15/2018',     0, 0,7.07, 119],
+			['8/16/2018',     0, 0,7.124, 123],
+			['8/17/2018',     0, 0,7.142, 119],
+			['8/18/2018',     0, 0,7.142, 118],
+			['8/19/2018',     0.19, 0,7.088, 117],
+			['8/20/2018',     0.13, 0,6.962, 122],
+			['8/21/2018',     0, 0,6.8, 121],
+			['8/22/2018',     0, 0,6.908, 113],
+			['8/23/2018',     0, 0,6.89, 119],
+			['8/24/2018',     0, 0,6.728, 128],
+			['8/25/2018',     0, 0,6.764, 130],
+			['8/26/2018',     0, 0,6.71, 117],
+			['8/27/2018',     0, 0,6.62, 116],
+			['8/28/2018',     0, 0,6.512, 115],
+			['8/29/2018',     0, 0,6.674, 127],
+			['8/30/2018',     0, 0,6.854, 129],
+			['8/31/2018',     0, 0,6.926, 125]
+		]);
+
+        var options = {
+          title: 'Observed and Predicted Daily Russian River Anatoxin-a Concentration (Summer 2018)',
+          hAxis: {title: 'Date', showTextEvery: 5, slantedText: true, slantedTextAngle: 90},
+          vAxes: {0:  {titleTextStyle: {color: "red", fontSize: 25}, title: 'Aanatoxin-a ug/L and Water Temp. (Deg. F) / 10', viewWindowMode:'explicit',
+                      viewWindow:{
+                                  max:14,
+                                  min:0
+                                  },
+                      gridlines: {color: '#333', count: 8},
+                      },
+                  1: {titleTextStyle: {color: "blue", fontSize: 30}, title: 'log RR Flow (cfs)', viewWindowMode: 'explicit',
+                  	  viewWindow:{
+                  	  			  max:100000,
+                  	  			  min:10
+                  	  			  },
+                      gridlines: {color: 'transparent'},
+                      scaleType: 'log',
+                      format:"####"},
+                  },
+          series: {0:{targetAxisIndex:0},
+                   1:{targetAxisIndex:0},
+                   2:{targetAxisIndex:0},
+                   3:{targetAxisIndex:1},
+                  },
+          colors: ["red", "green", "black", "blue"],
+          chartArea:{left:100,top:100, width:600, height:300},
+        };
+        var chart = new google.visualization.LineChart(document.getElementById('chart_id'));
+        chart.draw(data, options);
+      }
+</script>
+
+<div id="chart_id" style="width: 900px; height: 500px;"></div>
+
+ </head>
+
+
+<P>
+My recommendation is for Sonoma County Residents to contact your supervisor and encourage them to instruct SCWA to utilize this type of
+simulation model to manage the Russian River flows when the conditions of flow, water temperature, and air temperature could give rise to this
+type of toxicity.
+<br>
+Here is a link to the Sonoma County Dept. of Health Services web page for current data on Blue-Green Algae and cyanobacteria:
+<br>
+<a href="http://www.sonoma-county.org/health/services/bluegreen.asp#Content" target="_blank">SCDHS Blue-Green Algae</a>
+<br>
+
+<P>
+Thanks,
+Mike
+<BR>
+If you have questions, you can E-mail me at:
+<A HREF="mailto:labsoft@comcast.net"><I>labsoft@comcast.net</I></A>
+</P>
+
+<!-- hitwebcounter Code START -->
+<a href="http://www.hitwebcounter.com" target="_blank">
+<img src="http://hitwebcounter.com/counter/counter.php?page=6537162&style=0006&nbdigits=5&type=page&initCount=0" title="." Alt="."   border="0" >
+</a>                                        <br/>
+                                        <!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com" title="Traffic Counter"
+                                        target="_blank" style="font-family: Geneva, Arial, Helvetica;
+                                        font-size: 11px; color: #85948C; text-decoration: underline ;"><em>Traffic Counter                                        </em>
+                                        </a>
+<BR>
+<BR>
+
+  <IMG SRC="./images/footer-simplus.jpg" ALIGN=CENTER WIDTH="560" HEIGHT="25" ISMAP USEMAP="#footer" BORDER="0">
+
+</BLOCKQUOTE>
+
+</TD>
+</TR>
+</TABLE>
+
+</BODY>
+
+<MAP NAME="footer">
+	<AREA SHAPE="rect" COORDS="0,0 128,24" HREF="https://pharmacyschool.usc.edu/">
+	<AREA SHAPE="rect" COORDS="155,0 315,24" HREF="http://www.simulations-plus.com">
+	<AREA SHAPE="rect" COORDS="407,0 475,24" HREF="mailto:labsoft@comcast.net">
+	<AREA SHAPE="rect" COORDS="500,0 559,24" HREF="index.html">
+
+</MAP>
+
+</HTML>
