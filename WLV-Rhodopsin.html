@@ -1,0 +1,396 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<META name=VI60_defaultClientScript content=JavaScript>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Michael Bolger">
+<title>Bacteriorhodopsin from Cryo-electron microscopy</title>
+
+<SCRIPT ID=clientEventHandlersJS LANGUAGE=javascript>
+<!--
+
+function castick_onclick() {
+	wlv.SetProteinDisplayStyle("CA Stick");
+}
+
+function lineribbon_onclick() {
+	wlv.SetProteinDisplayStyle("Line Ribbon");
+	wlv.SetProteinColorScheme("Secondary Type");
+}
+
+function tube_onclick() {
+	wlv.SetProteinDisplayStyle("Tube");
+}
+
+function schematic_onclick() {
+	wlv.SetProteinDisplayStyle("Schematic");
+}
+
+function hbond_onclick() {
+	wlv.HydrogensAdd();
+	wlv.MonitorCreate("HBond");
+}
+
+function hbondoff_onclick() {
+	wlv.UnselectAll();
+	wlv.SelectFromSpec("HBondMonitor id=\"*\"");
+	wlv.Delete();
+}
+
+function hydgn_off_onclick() {
+	wlv.SelectFromSpec("Atom element=Hydrogen");
+	wlv.SetAtomDisplayStyle("Off");
+	wlv.UnselectAll();
+}
+
+function hydgn_on_onclick() {
+	wlv.UnselectAll();
+	wlv.HydrogensAdd();
+}
+
+function surface1_onclick() {
+	wlv.UnselectAll();
+	wlv.SetAtomDisplayStyle("Line");
+	wlv.SetProteinDisplayStyle("Schematic");
+	wlv.SetProteinColorScheme("Secondary Type");
+	wlv.SurfaceCreate();
+	wlv.SetSurfaceColorScheme("Atom Color");
+}
+
+function surface2_onclick() {
+	wlv.SetSurfaceColorScheme("Electrostatic Potential");
+}
+
+function surfacenew_onclick() {
+	wlv.SurfaceCreate();
+	wlv.UnselectAll();
+}
+
+function selectresidues_onclick() {
+	wlv.SelectFromSpec("Aminoacid id=47");
+	wlv.SetAtomDisplayStyle("CPK");
+	wlv.UnselectAll();
+}
+
+function fig1_onclick() {
+	wlv.SetAtomDisplayStyle("Off");
+	wlv.SetProteinDisplayStyle("Schematic");
+	wlv.SelectFromSpec("Aminoacid id=142, id=143, id=146, id=152, id=117, id=157, id=159, id=164, id=181, id=197");
+	wlv.SetAtomDisplayStyle("Stick");
+	wlv.UnselectAll();
+	wlv.SelectFromSpec("AminoAcid id=301, id=302, id=303, id=304, id=305, id=306, id=307, id=308");
+	wlv.SetProteinDisplayStyle("Stick");
+	wlv.UnselectAll();
+	wlv.SelectFromSpec("Aminoacid id=304");
+	wlv.SetAtomDisplayStyle("Stick");
+	wlv.UnselectAll();
+	wlv.SelectFromSpec("Residue id=309, id=310");
+	wlv.SetAtomDisplayStyle("CPK");
+	wlv.SelectFromSpec("Residue id=309");
+	wlv.FitToView();
+	wlv.UnselectAll();
+}
+
+function fig3_onclick() {
+	wlv.SetAtomDisplayStyle("Off");
+	wlv.SelectAll();
+	wlv.SetColor("16777215");
+	wlv.UnselectAll();
+	wlv.SetProteinDisplayStyle("CA Stick");
+	wlv.SetColor("16777215");
+	wlv.SelectFromSpec("Aminoacid id=63, id=64, id=65, id=66, id=67, id=68, id=69, id=70, id=71, id=72, id=73, id=74, id=75, id=76, id=77, id=78, id=79, id=80, id=81, id=82, id=83, id=84, id=85, id=86, id=87, id=88, id=89, id=90");
+	wlv.SetProteinDisplayStyle("CA Stick");
+	wlv.SetColor("255");
+	wlv.UnselectAll();
+	wlv.SelectFromSpec("AminoAcid id=149, id=150, id=151, id=152, id=153, id=154, id=155, id=156, id=157, id=158, id=159, id=160, id=161, id=162, id=163, id=164, id=165, id=166, id=167, id=168, id=169, id=170, id=171, id=172, id=173, id=174, id=175, id=176, id=177, id=178, id=179, id=180, id=181, id=182, id=183, id=184, id=185, id=186, id=187, id=188, id=189, id=190, id=191, id=192, id=193");
+	wlv.SetProteinDisplayStyle("CA Stick");
+	wlv.SetColor("255");
+	wlv.UnselectAll();
+	wlv.SelectFromSpec("Aminoacid id=301, id=302, id=303, id=304, id=305, id=306, id=307, id=308, id=309");
+	wlv.SetColor("11100000");
+	wlv.UnselectAll();
+	wlv.SurfaceCreate();
+	wlv.SetSurfaceColorScheme("Parent Color");
+	wlv.SetSurfaceDisplyStyle("Soft");
+	wlv.UnselectAll();
+	wlv.FitToView();
+}
+
+//-->
+</SCRIPT>
+</head>
+
+<BODY background=.\images\WebBackgroundWSailBoatSmall.gif>
+
+<table border="0" cellspacing="0">
+    <tr>
+        <td>
+      <P><font size="2" face="Arial"><strong>
+      <OBJECT classid=clsid:025F1686-6A03-11D3-B41E-006008AFFDB1 id=wlv style="HEIGHT: 307px; LEFT: 0px; TOP: 0px; WIDTH: 518px" VIEWASTEXT>
+      <PARAM NAME="_Version" VALUE="65536">
+      <PARAM NAME="_ExtentX" VALUE="5768">
+      <PARAM NAME="_ExtentY" VALUE="5477">
+      <PARAM NAME="_StockProps" VALUE="0">
+      <PARAM NAME="Source" VALUE="C:\Bolger\USC\Pharmacy\ced\autonomic\BovineRhodopsin1HZX-Aonly.pdb">
+      <PARAM NAME="Mouse" VALUE="2">
+      <PARAM NAME="BackColor" VALUE="0">
+      <PARAM NAME="LightColor" VALUE="16777215">
+      <PARAM NAME="DepthCue" VALUE="0">
+      <PARAM NAME="FastRender" VALUE="255">
+      <PARAM NAME="Projection" VALUE="0">
+      <PARAM NAME="GraphicsQuality" VALUE="0">
+      <PARAM NAME="SplitStereo" VALUE="2">
+      <PARAM NAME="StereoAngle" VALUE="3.5">
+      <PARAM NAME="ShowContextMenu" VALUE="-1">
+      <PARAM NAME="SelectionMode" VALUE="1">
+      <PARAM NAME="Spin" VALUE="0">
+      <PARAM NAME="LineWidth" VALUE="1.6">
+      <PARAM NAME="Convert2Dto3D" VALUE="-1">
+      <PARAM NAME="AutoAddHydrogens" VALUE="0">
+      <PARAM NAME="DisplayUnitCell" VALUE="0">
+      <PARAM NAME="UseAtomChargesFromFile" VALUE="0">
+      <PARAM NAME="UsePDBSecondaryStruct" VALUE="0">
+      <PARAM NAME="PerceiveAromaticity" VALUE="0">
+      <PARAM NAME="Animate" VALUE="0">
+      <PARAM NAME="AnimationPeriod" VALUE="55">
+      <PARAM NAME="HideModel" VALUE="-1">
+      <PARAM NAME="PrintDocument" VALUE="52083248">
+      </OBJECT>
+ </strong></font></P>
+        </td>
+        <td>
+         <P><font size="2" face="Arial"><strong>Bovine Rhodopsin</strong>
+           </font><font size="2" face="Arial"> &nbsp;
+	Bovine Rhodopsin is the first mammalian G-protein coupled receptor structure to become available.
+	The model you see has been loaded as a PDB file with
+	the display initially off.  If the 3D model is not seen when the Figure 1 button is pressed
+	then you might need to install the Weblab Viewer Active-X control and use the Internet
+	Explorer web browser. Changing the display style of the model provides insight into
+	structure and function of the protein. Be patient after press a button.  It may take a few
+	seconds for the structure to display properly.</font></P>
+
+            <font size="2" face="Arial">
+            <IMG border=0 height=16 id=fig1 language=javascript onclick="return fig1_onclick()" src="./images/button1.jpg" width=16 >
+            <b>View Figure 1</b>
+            <a href="RhodopsinLarge.html" target="_top"><IMG border=0 height=16 src="./images/button1.jpg" width=16>
+            <b>View Full Screen</b></a><br>
+            <IMG border=0 height=16 id=fig3 language=javascript onclick="return fig3_onclick()" src="./images/button1.jpg" width=16 >
+            <b>View Figure 3</b>
+            <IMG border=0 height=16 onclick=wlv.SurfacesRemove() src="./images/button1.jpg" width=16>
+            <b>Remove Surface</b>
+			</font><br>
+
+		<table border="0" cellspacing="0">
+		    <tr>
+		    </tr>
+		    <tr>
+		        <td><font size="2" face="Arial"><strong><u>
+		         Primary Structure:</u></strong></font><font face="Arial"><br></font>
+		         <IMG border=0 height=16 onclick='wlv.SetAtomDisplayStyle("Stick")' src="./images/button1.jpg" width=16 >
+		         <font size="2" face="Arial">
+		         Stick<br></font>
+		         <IMG border=0 height=16 onclick='wlv.SetAtomDisplayStyle("Line")' src="./images/button1.jpg" width=16 >
+		         <font size="2" face="Arial">
+				 Line<br></font>
+		         <IMG border=0 height=16 onclick='wlv.SetAtomDisplayStyle("CPK")' src="./images/button1.jpg" width=16 >
+		         <font size="2" face="Arial">
+				 CPK</font>
+		        </td>
+
+		        <td width="30"></td>
+
+		        <td><font size="2" face="Arial"><strong><u>
+		         Backbone:</u></strong></font><font face="Arial"><strong><br></strong></font>
+		         <font size="2" face="Arial">
+		         <IMG border=0 height=16 id=castick language=javascript onclick="return castick_onclick()" src="./images/button1.jpg" width=16 >
+		         C-Alpha stick<br>
+		         </font><font size="2" face="Arial">
+		         <IMG border=0 height=16 id=lineribbon language=javascript onclick="return lineribbon_onclick()" src="./images/button1.jpg" width=16 >
+		         Line Ribbon<br>
+		         </font><font size="2" face="Arial">
+		         <IMG border=0 height=16 id=tube language=javascript onclick="return tube_onclick()" src="./images/button1.jpg" width=16 >
+		         Tube</font><br>
+		         </font>
+		        </td>
+		    </tr>
+		</table>
+
+        </td>
+    </tr>
+</table>
+
+<p><font size="2" face="Arial">The </font>
+ <font size="2" face="Arial">
+ <IMG border=0 height=16 onclick='wlv.SetProteinDisplayStyle("Schematic")' src="./images/button1.jpg" width=16 >
+Schematic display (Richardson diagram)
+details the location of helix and beta sheet regions. The color
+scheme indicates the hydrophobic (blue) and hydrophilic (red)
+areas of the molecule. By turning the </font>
+ <IMG border=0 height=16 onclick='wlv.SetAtomDisplayStyle("Off")' src="./images/button1.jpg" width=16 >
+ <font size="2" face="Arial">
+ Atom display style off, and rotating the
+ model we can see that the beta sheet ribbon sections each have an
+ arrow head at one end. This arrow points in the direction of the
+ C-terminus.</font></p>
+
+<p><font face="Arial"><strong>Investigating H-bonding <br>
+</strong></font><font size="2" face="Arial">Hydrogen bonds
+(H-bonds) play an important part in the formation of the
+secondary structure of proteins. In Fibrolase, H-bonds are involved
+in creating the coils and beta sheets in the protein. Select the Backbone type: "C-Alpha Stick" and
+then by turning on the </font>
+<IMG border=0 height=16 id=hbond language=javascript onclick="return hbond_onclick()" src="./images/button1.jpg" width=16 >
+<font size="2" face="Arial">
+H-bond monitor the hydrogen bonds appear as green dotted lines.</font></p>
+
+<p><font size="2" face="Arial">To better see where the H-bonds
+occur, and what their effect they have on the molecule's
+conformation, </font>
+<IMG border=0 height=16 id=lineribb language=javascript onclick="return lineribbon_onclick()" src="./images/button1.jpg" width=16 >
+<font size="2" face="Arial"> alter the display style to show only the
+secondary structure and the H-bonds. Now you can clearly see the
+hydrogen bonds among protein backbone's structure. If you want a
+better look, use the right mouse button to change the display properties and then
+zoom and rotate the model to study it further. You
+can see that the hydrogen bonds play an important role in forming
+the helices and beta sheets. Change display:</font></p>
+
+<table border="0" cellspacing="0">
+    <tr>
+        <td valign="top"><p align="right"><font size="2" face="Arial"><strong>Atoms:</strong></font></p>
+        </td>
+        <td valign="top">
+		 <IMG border=0 height=16 onclick='wlv.SetAtomDisplayStyle("Line")' src="./images/button1.jpg" width=16 >
+         <font size="2" face="Arial">On </font>
+		 <IMG border=0 height=16 onclick='wlv.SetAtomDisplayStyle("Off")' src="./images/button1.jpg" width=16 >
+         <font size="2" face="Arial">Off</font>
+        </td>
+    </tr>
+    <tr>
+        <td><font size="2" face="Arial"><strong>Hydrogens:</strong></font></td>
+        <td><font size="2" face="Arial">
+		 <IMG border=0 height=16 id=hydgn_off language=javascript onclick="return hydgn_off_onclick()" src="./images/button1.jpg" width=16 >
+         Invisible </font>
+         <font size="2" face="Arial">
+		 <IMG border=0 height=16 id=hydgn_on language=javascript onclick="return hydgn_on_onclick()" src="./images/button1.jpg" width=16 >
+         Visible</font></td>
+    </tr>
+</table>
+
+<p><font face="Arial"><strong>Projecting properties onto surfaces</strong></font>
+<font size="2" face="Arial"><br>
+	Looking at the surface of a protein often provides further
+	insight into a protein's potential for interaction. By </font>
+ <IMG border=0 height=16 id=surface1 language=javascript onclick="return surface1_onclick()" src="./images/button1.jpg" width=16 > </A><font size="2" face="Arial"> adding a surface to
+	Fibrolase, and then </font>
+ <IMG border=0 height=16 id=surface2 language=javascript onclick="return surface2_onclick()" src="./images/button1.jpg" width=16 > </A><font size="2" face="Arial"> coloring by electrostatic potential, we
+	can better understand how it might interact with a potential drug
+	molecule. </font></p>
+
+<table border="1" cellspacing="1">
+    <tr>
+     <td colspan="2" bgcolor="#c0c0c0"><p align="center">
+      <font size="1" face="Arial"><strong>
+      Change Display</strong></font></p>
+     </td>
+    </tr>
+    <tr>
+     <td valign="bottom"><p align="right">
+      <font size="1" face="Arial"><strong>
+      Atoms:</strong></font></p>
+     </td>
+     <td valign="top">
+      <IMG border=0 height=16 onclick='wlv.SetAtomDisplayStyle("Off")' src="./images/button1.jpg" width=16>
+      <font size="1" face="Arial">&nbsp;
+      Off
+      <IMG border=0 height=16 onclick='wlv.SetAtomDisplayStyle("Line")' src="./images/button1.jpg" width=16>
+      </font><font size="1" face="Arial">
+      On</font>
+     </td>
+    </tr>
+    <tr>
+     <td valign="bottom"><p align="right">
+      <font size="1" face="Arial"><strong>
+      Surface:</strong></font></p>
+     </td>
+     <td valign="top">
+      <IMG border=0 height=16 id=surfacenew language=javascript onclick="return surfacenew_onclick()" src="./images/button1.jpg" width=16 >
+      <font size="1" face="Arial">
+      Add </font>
+      <IMG border=0 height=16 onclick='wlv.SetSurfaceDisplayStyle("Soft")' src="./images/button1.jpg" width=16>
+      <font size="1" face="Arial">
+      Show </font>
+      <IMG border=0 height=16 onclick='wlv.SetSurfaceDisplayStyle("Off")' src="./images/button1.jpg" width=16>
+      <font size="1" face="Arial">
+      Hide </font>
+      <IMG border=0 height=16 onclick='wlv.SetSurfaceDisplayStyle("Transparent")' src="./images/button1.jpg" width=16>
+      <font size="1" face="Arial">
+      Transparent</font>
+      <IMG border=0 height=16 onclick='wlv.SetSurfaceDisplayStyle("Solid")' src="./images/button1.jpg" width=16>
+      <font size="1" face="Arial">
+      Solid </font>
+      <IMG border=0 height=16 onclick=wlv.SurfacesRemove() src="./images/button1.jpg" width=16>
+      <font size="1" face="Arial">
+      Remove</font>
+     </td>
+    </tr>
+    <tr>
+     <td valign="bottom"><p align="right">
+      <font size="1" face="Arial"><strong>
+      H-Bonds: </strong></font></p>
+     </td>
+     <td valign="top">
+	  <IMG border=0 height=16 id=hbondon language=javascript onclick="return hbond_onclick()" src="./images/button1.jpg" width=16 >
+      <font size="1" face="Arial">
+      Add </font>
+	  <IMG border=0 height=16 id=hbondoff language=javascript onclick="return hbondoff_onclick()" src="./images/button1.jpg" width=16 >
+      <font size="1" face="Arial">
+      Remove</font>
+     </td>
+    </tr>
+    <tr>
+     <td valign="bottom"><p align="right">
+      <font size="1" face="Arial"><strong>
+      Backbone:</strong></font></p>
+     </td>
+     <td valign="top">
+      <IMG border=0 height=16 id=castick language=javascript onclick="return castick_onclick()" src="./images/button1.jpg" width=16>
+      <FONT face=Arial size=1>
+      C-Alpha stick </FONT>
+      <IMG border=0 height=16 id=lineribbon language=javascript onclick="return lineribbon_onclick()" src="./images/button1.jpg" width=16>
+      <font size="1" face="Arial">
+      Line Ribbon </font>
+      <IMG border=0 height=16 id=tube language=javascript onclick="return tube_onclick()" src="./images/button1.jpg" width=16>
+      <font size="1" face="Arial">
+      Tube</font>
+      <IMG border=0 height=16 id=tube language=javascript onclick="return schematic_onclick()" src="./images/button1.jpg" width=16>
+      <font size="1" face="Arial">
+      Schematic</font>
+     </td>
+    </tr>
+    <tr>
+     <td valign="bottom"><p align=right>
+      <font size="1" face="Arial"><strong>
+       Spin:</strong></font></p>
+     </td>
+     <td valign="top">
+      <IMG border=0 height=16 onclick=wlv.Spin="1" src="./images/button1.jpg" width=16>
+      <font size="1" face="Arial">
+      On </font>
+      <IMG border=0 height=16 onclick=wlv.Spin="0" src="./images/button1.jpg" width=16>
+      <font size="1" face="Arial">
+      Off </font>
+     </td>
+    </tr>
+</table>
+
+<p><font size="2"><em>This page last updated <!--webbot
+bot="Timestamp" startspan s-type="EDITED" s-format="%B %d, %Y" -->January 14,
+2001<!--webbot
+bot="Timestamp" i-checksum="39090" endspan --><br>
+© 2001 LabSoft Solutions<br>
+</em></font><a href="http://www.msi.com/viewer"><font size="2"><em>http://www.msi.com/viewer</em></font></a></p>
+</BODY>
+</html>

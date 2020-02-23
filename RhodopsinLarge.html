@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+<META name=VI60_defaultClientScript content=JavaScript>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Michael Bolger">
+<title>Full Screen Homology Model of Fibrolase</title>
+
+<SCRIPT ID=clientEventHandlersJS LANGUAGE=javascript>
+<!--
+
+function castick_onclick() {
+	wlv.SetProteinDisplayStyle("CA Stick");
+}
+
+function lineribbon_onclick() {
+	wlv.SetProteinDisplayStyle("Line Ribbon");
+	wlv.SetProteinColorScheme("Secondary Type");
+}
+
+function tube_onclick() {
+	wlv.SetProteinDisplayStyle("Tube");
+}
+
+function schematic_onclick() {
+	wlv.SetProteinDisplayStyle("Schematic");
+}
+
+function hbond_onclick() {
+	wlv.HydrogensAdd();
+	wlv.MonitorCreate("HBond");
+}
+
+function hbondoff_onclick() {
+	wlv.UnselectAll();
+	wlv.SelectFromSpec("HBondMonitor id=\"*\"");
+	wlv.Delete();
+}
+
+function hydgn_off_onclick() {
+	wlv.SelectFromSpec("Atom element=Hydrogen");
+	wlv.SetAtomDisplayStyle("Off");
+	wlv.UnselectAll();
+}
+
+function hydgn_on_onclick() {
+	wlv.UnselectAll();
+	wlv.HydrogensAdd();
+}
+
+function surface1_onclick() {
+	wlv.UnselectAll();
+	wlv.SetAtomDisplayStyle("Line");
+	wlv.SetProteinDisplayStyle("Schematic");
+	wlv.SetProteinColorScheme("Secondary Type");
+	wlv.SurfaceCreate();
+	wlv.SetSurfaceColorScheme("Atom Color");
+}
+
+function surface2_onclick() {
+	wlv.SetSurfaceColorScheme("Electrostatic Potential");
+}
+
+function surfacenew_onclick() {
+	wlv.SurfaceCreate();
+	wlv.UnselectAll();
+}
+
+function selectresidues_onclick() {
+	wlv.SelectFromSpec("Aminoacid id=47");
+	wlv.SetAtomDisplayStyle("CPK");
+	wlv.UnselectAll();
+}
+
+function fig1_onclick() {
+	wlv.SetAtomDisplayStyle("Off");
+	wlv.SetProteinDisplayStyle("Schematic");
+	wlv.SelectFromSpec("Aminoacid id=142, id=143, id=146, id=152, id=117, id=157, id=159, id=164, id=181, id=197");
+	wlv.SetAtomDisplayStyle("Stick");
+	wlv.UnselectAll();
+	wlv.SelectFromSpec("AminoAcid id=301, id=302, id=303, id=304, id=305, id=306, id=307, id=308");
+	wlv.SetProteinDisplayStyle("Stick");
+	wlv.UnselectAll();
+	wlv.SelectFromSpec("Aminoacid id=304");
+	wlv.SetAtomDisplayStyle("Stick");
+	wlv.UnselectAll();
+	wlv.SelectFromSpec("Residue id=309, id=310");
+	wlv.SetAtomDisplayStyle("CPK");
+	wlv.SelectFromSpec("Residue id=309");
+	wlv.FitToView();
+	wlv.UnselectAll();
+}
+
+function fig3_onclick() {
+	wlv.SetAtomDisplayStyle("Off");
+	wlv.SelectAll();
+	wlv.SetColor("16777215");
+	wlv.UnselectAll();
+	wlv.SetProteinDisplayStyle("CA Stick");
+	wlv.SetColor("16777215");
+	wlv.SelectFromSpec("Aminoacid id=63, id=64, id=65, id=66, id=67, id=68, id=69, id=70, id=71, id=72, id=73, id=74, id=75, id=76, id=77, id=78, id=79, id=80, id=81, id=82, id=83, id=84, id=85, id=86, id=87, id=88, id=89, id=90");
+	wlv.SetProteinDisplayStyle("CA Stick");
+	wlv.SetColor("255");
+	wlv.UnselectAll();
+	wlv.SelectFromSpec("AminoAcid id=149, id=150, id=151, id=152, id=153, id=154, id=155, id=156, id=157, id=158, id=159, id=160, id=161, id=162, id=163, id=164, id=165, id=166, id=167, id=168, id=169, id=170, id=171, id=172, id=173, id=174, id=175, id=176, id=177, id=178, id=179, id=180, id=181, id=182, id=183, id=184, id=185, id=186, id=187, id=188, id=189, id=190, id=191, id=192, id=193");
+	wlv.SetProteinDisplayStyle("CA Stick");
+	wlv.SetColor("255");
+	wlv.UnselectAll();
+	wlv.SelectFromSpec("Aminoacid id=301, id=302, id=303, id=304, id=305, id=306, id=307, id=308, id=309");
+	wlv.SetColor("11100000");
+	wlv.UnselectAll();
+	wlv.SurfaceCreate();
+	wlv.SetSurfaceColorScheme("Parent Color");
+	wlv.SetSurfaceDisplyStyle("Soft");
+	wlv.UnselectAll();
+	wlv.FitToView();
+}
+
+function DisplayLys_onclick() {
+	wlv.SetAtomDisplayStyle("Off");
+	wlv.SetProteinDisplayStyle("Schematic");
+	wlv.SelectFromSpec("Aminoacid id=142, id=143, id=146, id=152, id=117, id=157, id=159, id=164, id=181, id=197");
+	wlv.SetAtomDisplayStyle("Stick");
+	wlv.UnselectAll();
+	wlv.SelectFromSpec("AminoAcid id=301, id=302, id=303, id=304, id=305, id=306, id=307, id=308");
+	wlv.SetProteinDisplayStyle("Stick");
+	wlv.UnselectAll();
+	wlv.SelectFromSpec("Aminoacid id=304");
+	wlv.SetAtomDisplayStyle("Stick");
+	wlv.UnselectAll();
+	wlv.SelectFromSpec("Aminoacid id=21, id=28, id=121, id=176, id=183, id=184, id=201");
+	wlv.SetAtomDisplayStyle("Stick");
+	wlv.UnselectAll();
+	wlv.SelectFromSpec("Residue id=309, id=310");
+	wlv.SetAtomDisplayStyle("CPK");
+	wlv.SelectFromSpec("Residue id=309");
+	wlv.FitToView();
+	wlv.UnselectAll();
+}
+
+
+//-->
+</SCRIPT>
+</head>
+
+<BODY background=.\images\WebBackgroundWSailBoatSmall.gif>
+
+<table border="0" cellspacing="0">
+    <tr>
+        <td>
+      <P><font size="2" face="Arial"><strong>
+      <OBJECT classid=clsid:025F1686-6A03-11D3-B41E-006008AFFDB1 id=wlv style="HEIGHT: 607px; LEFT: 0px; TOP: 0px; WIDTH:1018px" VIEWASTEXT>
+      <PARAM NAME="_Version" VALUE="65536">
+      <PARAM NAME="_ExtentX" VALUE="5768">
+      <PARAM NAME="_ExtentY" VALUE="5477">
+      <PARAM NAME="_StockProps" VALUE="0">
+      <PARAM NAME="Source" VALUE="C:\Bolger\USC\Pharmacy\ced\autonomic\BovineRhodopsin1HZX-Aonly.pdb">
+      <PARAM NAME="Mouse" VALUE="2">
+      <PARAM NAME="BackColor" VALUE="0">
+      <PARAM NAME="LightColor" VALUE="16777215">
+      <PARAM NAME="DepthCue" VALUE="0">
+      <PARAM NAME="FastRender" VALUE="255">
+      <PARAM NAME="Projection" VALUE="0">
+      <PARAM NAME="GraphicsQuality" VALUE="0">
+      <PARAM NAME="SplitStereo" VALUE="2">
+      <PARAM NAME="StereoAngle" VALUE="3.5">
+      <PARAM NAME="ShowContextMenu" VALUE="-1">
+      <PARAM NAME="SelectionMode" VALUE="1">
+      <PARAM NAME="Spin" VALUE="0">
+      <PARAM NAME="LineWidth" VALUE="1.6">
+      <PARAM NAME="Convert2Dto3D" VALUE="-1">
+      <PARAM NAME="AutoAddHydrogens" VALUE="0">
+      <PARAM NAME="DisplayUnitCell" VALUE="0">
+      <PARAM NAME="UseAtomChargesFromFile" VALUE="0">
+      <PARAM NAME="UsePDBSecondaryStruct" VALUE="0">
+      <PARAM NAME="PerceiveAromaticity" VALUE="0">
+      <PARAM NAME="Animate" VALUE="0">
+      <PARAM NAME="AnimationPeriod" VALUE="55">
+      <PARAM NAME="HideModel" VALUE="-1">
+      <PARAM NAME="PrintDocument" VALUE="52083248">
+      </OBJECT>
+ </strong></font></P>
+        </td>
+</table>
+            <font size="2" face="Arial">
+            <IMG border=0 height=16 id=fig1 language=javascript onclick="return fig1_onclick()" src="./images/button1.jpg" width=16 >
+            <b>View Figure 1</b>
+            <IMG border=0 height=16 id=DisplayLys language=javascript onclick="return DisplayLys_onclick()" src="./images/button1.jpg" width=16 >
+            <b>View All Lysines</b>
+            <a href="index.html" target="_top"><IMG border=0 height=16 src="./images/button1.jpg" width=16>
+            <b>Return to Original View</b></a>
+            <IMG border=0 height=16 id=fig3 language=javascript onclick="return fig3_onclick()" src="./images/button1.jpg" width=16 >
+            <b>View Figure 3</b>
+            <IMG border=0 height=16 onclick=wlv.SurfacesRemove() src="./images/button1.jpg" width=16>
+            <b>Remove Surface</b>
+			</font><br>
+
+<p><font size="2"><em>This page last updated <!--webbot
+bot="Timestamp" startspan s-type="EDITED" s-format="%B %d, %Y" -->January 9, 2002<!--webbot
+bot="Timestamp" i-checksum="39090" endspan --><br>
+© 2002 LabSoft Solutions<br>
+</em></font><a href="http://www.msi.com/viewer"><font size="2"><em>http://www.msi.com/viewer</em></font></a></p>
+</BODY>
+</html>

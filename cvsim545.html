@@ -1,0 +1,201 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="Author" CONTENT="Michael B. Bolger">
+   <META NAME="Classification" CONTENT="educational">
+   <META NAME="Description" CONTENT="For Students in Therapeutics III  at USC School of Pharmacy">
+   <META NAME="KeyWords" CONTENT="autonomic pharmacology nervous system">
+
+<TITLE>A SIMULATION OF CARDIOVASCULAR PHARMACOLOGY AND AUTONOMIC REGULATION</TITLE>
+</HEAD>
+
+<BODY TEXT="#000000" BGCOLOR="#FFFFFF" LINK="#0000FF" VLINK="#551A8B" ALINK="#FF0000">
+
+<CENTER><B><U><FONT SIZE=+2>A SIMULATION OF CARDIOVASCULAR PHARMACOLOGY<BR> AND AUTONOMIC REGULATION</FONT></U></B></CENTER>
+<CENTER>Adapted for the Web and USC School of Pharmacy, PHAR 545, Therapeutics III Course<br>
+        by <a href="http://www-rcf.usc.edu/~bolger">Michael B. Bolger, Ph.D.</a></CENTER>
+
+<P>One of the best ways to learn autonomic pharmacology, is to become involved in the administration of 
+autonomic drugs and monitoring of cardiovascular endpoints.  In the past, students could participate in live
+demonstrations of cardiovascular pharmacology by using mongrel dogs.  The use of animals in medical research
+and education was a highly valued priviledge and a serious responsibility.  Those animals always received
+the best in humane care.  In spite of the value of this type of real life experience, problems were always
+apparent during the conduct of such experiments.  Catheters would become misplaced and not read correctly, the 
+dogs might have an unusual response to the drugs administered, electronic connections would become disconnected, etc.
+
+<P>Today, we have the benefit of high speed computers capable of producing a realistic simulation of 
+blood pressure, heart rate, peripheral resistance, and cardiac output in real time.  The simulation model that drives such
+a simulation is cabable of responding to the administration of autonomic drugs in much the same way that a real
+animal responds.  In order to get the most out of this simulated individual lab experience, you should run the
+simulation program, "CardioSim(TM)", (sorry PC's only for now, until I finish a platform independent JAVA version) and 
+follow the instructions below.
+
+<P>CardioSim(TM) installation files can be found on the internet at <a href="http://www.labsoft.com">LabSoft Solutions </a>. 
+After installing CardioSim(TM) you can run the program by double-clicking on its icon.  When you are 
+looking at the CardioSim(TM) window, standard MS-Windows buttons are used to administer various drugs and to 
+perform a variety of invasive procedures:
+
+<BR>
+<BR>
+<A HREF="ANSlessn.html">Return to A Programmed Introduction to Autonomic Nervous System</A>
+<BR>
+<BR>
+
+<A NAME="Commands"></A>
+<B>AGONISTS</B>
+<UL>
+	<LI>a = Pure Alpha Adrenergic (mainly A1 arteriolar constriction)
+	<LI>b = Pure Beta Adrenergic (mixed B1 and B2)
+	<LI>c = Pure Muscarinic
+	<LI>n = Norepinephrine
+	<LI>e = Epinephrine
+	<LI>i = Isoproterenol
+	<LI>g = Acetylcholine
+	<LI>t = Angiotensin
+	<LI>y = Pure Vasodilator
+</UL>
+<B>ANTAGONISTS</B>
+<UL>
+	<LI>f = Pure Alpha Adrenergic Blocker
+	<LI>p = Pure Beta Adrenergic Blocker
+	<LI>j = Pure Muscarinic Blocker
+</UL>
+<B>OPERATIONS</B>
+<UL>
+	<LI>v = Vagal Section (cut the parasymathetic influence on the heart)
+	<LI>o = Carotid Occlusion
+	<LI>l = Carotid Release
+	<LI>u = Hemorrahage (serious consequences, you might loose the dog)
+</UL>
+<B>HOUSEKEEPING</B>
+<UL>
+	<LI>s = Suspend computation (freeze the current screen)
+	<LI>spacebar = Resume computation
+	<LI><-- backspace = Clear Screen
+	<LI>x = Clear drugs (only)
+	<LI>r = Restart (Clear Everything)
+</UL>
+<B>GRAPH LEGEND</B>
+<UL>
+	<LI>- = Cardiac Output
+	<LI>+ = Peripheral Resistance
+	<LI>solid line = Systolic and Diastolic Blood pressure
+</UL>
+<B>INITIAL CONDITIONS</B>
+<UL>
+	<LI>CO = 0.56 L/min
+	<LI>HR = 75 beats /min
+	<LI>DP = 90 mm Hg
+	<LI>SP = 115 mm Hg
+	<LI>Mean arterial pressure = 100 mm Hg
+	<LI>TPR = 32
+	<LI>Initial Stroke Volume = 3.9 L
+</UL>
+
+<P>When a drug is administered, the response can usually be divided into three phases:  
+<OL>
+	<LI>The direct action of the drug on the target tissue and subsequent responses of other components.
+	<LI>Reflex actions which attempt to restore the normal conditions.
+	<LI>The gradual diminution in response as the drug is degraded.
+</OL>
+<P>
+	Look for these phases when you simulate the administration of drugs.  You inform the computer that 
+	you wish to simulate the administration of a drug or perform a procedure by pressing a single key.
+	The keypress must be firm but don't hold the key down because the automatic repeat circuit will
+	be triggered.  It is best to administer drugs, etc. when the trace is near the left edge of the screen
+	so that you can observe the entire response.  Rather than wait for this to happen, you may press the 
+	backspace key to clear the screen without changing anything else.
+<P>
+	Questions are posed throughout the experimental protocol.  It will not be necessary for you to turn-in 
+	written answers to these questions, but you should be certain that you can answer all of them.  You
+	may possibly see some of these questions again sometime.
+<P>
+	We will start this laboratory session by administering some theoretically pure autonomic agents.
+	In reality, most drugs do not have "pure" autonomic actions.  Typically, an alpha adrenergic
+	agonist will have some beta adrenergic effects and vice versa.  A selective
+	adrenergic antagonist might have 100 times higher affinity for beta-1 receptors compared to 
+	beta-2 receptors, but there is usually some residual effect at other sites.  With the computer,
+	we can create pure alpha and beta agonists in order to learn the expected results when the
+	drug induced changes in cardiovasular parameters occur from the action of a drug on only
+	one site of action followed by the reflex response and then by the degradation of the administered
+	drug.
+
+<form method="post" action="mailto:bolger@zygote.hsc.usc.edu">  
+
+<OL>
+	<LI>Run the CardioSim(TM).EXE program as described above and press the "a" key lightly once 
+	when the trace is close to the left side of the screen to administer a pure alpha-1 agonist.
+	If you do not see the following	cardiovascular response please ask your TA for assistance.
+	<img src="palpha.gif" height=300 width=480>
+	In time zone 1, the most immediate response of an alpha-<select name="Ans"><option selected> <option>1</select>
+	agonist is to <select name="Ans"><option selected> <option>increase</select>
+	peripheral resistance (see + symbols) causing an increase in mean arterial pressure and a 
+	decrease in cardiac output (see - symbols).
+	<P>
+	<LI>In time zone #2 the heart rate is 
+	<select name="Ans"><option selected> <option>decreased</select> due to the
+	reflex action of the <select name="Ans"><option selected> <option>parasympathetic</select>
+	system.  The change in heart rate is caused by the action of 
+	<select name="Ans"><option selected> <option>ACh</select> on the 
+	<select name="Ans"><option selected> <option>muscarinic</select> receptors 
+	of the SA node of the heart.
+	<P>
+	<LI>In time zone #3 the cardiovascular parameters are returning to normal due to 
+	<select name="Ans"><option selected> <option>both degradation and reuptake</select> of neurotransmitter.
+	<P>
+	<LI>Now press the "r" to reset the simulations and then press "b" for a pure beta
+	adrenergic agonist (Note: this is a mixed beta-1 and beta-2 agonist.  The first actions
+	of a pure beta agonist are to <select name="Ans"><option selected> <option>decrease</select>
+	peripheral resistance (beta-2 response on skeletal muscle) and to increase heart rate
+	(direct action of a beta-1 agonist on the SA node of the heart.  This causes an increase in
+	stroke volume and cardiac output.  Note that the inital decrease in peripheral resistance 
+	is rapidly eliminated as the reflex action of NE (alpha-1 agonist) causes arteriolar 
+	vasodilation.  Finally, the parasympathetic reflex causes an decrease in heart rate and eventual
+	decrease in stroke volume as the peripheral resistance returns to normal.
+	<P>
+	<LI>Now press the "r" to reset the simulations and then press "c" for a pure muscarinic
+	agonist.  Notice that the response is very minor and terminates quickly.  Now press "c" five
+	times rapidly.  This is a very strong muscarinic effect on the heart producing a large
+	<select name="Ans"><option selected> <option>decrease</select> in heart rate.  Again, the
+	action is terminated rapidly.
+	<P>
+	<LI>Next we will compare the action of NE to the action of Isoproterenol and Epinephrine.
+	First, press "r" to reset the computer screen and then "n" to administer norepinephrine.
+	Next, press "r" to reset the computer screen and then "e" to administer epinephrine.
+	Which drug has the greater alpha-1 adrenergic activity? (Ans: 
+	<select name="Ans"><option selected> <option>norepinephrine</select>).
+	Now, press "r" to reset the computer screen and then "i" to administer isoproterenol.  The
+	primary action of isoproterenol is <select name="Ans"><option selected> <option>beta adrenergic</select>.
+	Be sure you can explain the three phases of each drugs action, (1) direct, (2) reflex, and 
+	(3) termination.
+	<P>
+	<LI>We can now administer and alpha-adrenergic antagonist and retest NE and EPI to check
+	their relative degrees of beta-adrenergic action.  Press "r" to reset and then press "f" 
+	for an alpha antagonist and wait for the trace to return to normal.  
+	Now press "n", "e", or "i" to see their relative degree of beta-adrenergic action.  
+	Notice that the effect of NE and EPI are similar for their beta activity and that 
+	the standard dose of isoproterenol produces a beta effect that is approximately <b>five</b>
+	times the beta effect of EPI or NE.
+	<P>
+	<LI>In order to clearly see the direct effects of adrenergic agonists you can administer a
+	a muscarinic blocker to screen out the reflex bradycardia caused by the parasympathetic 
+	system.  Press "r" to reset and then "j" for a muscarinic blocker like
+	<select name="Ans"><option selected> <option>atropine</select>.  Now then "e" or "n" are
+	pressed the reflex decrease in heart rate does not occur and the mean arterial pressure
+	oscillates up and down due to the sympathetic reflex only.  
+	<P>
+	<LI>Now compare the effect of a muscarinic blocker to the result of a surgical
+	procedure that cuts the vagus.  Press "r" to reset and then "v" to cut the vagus.  Now
+	repeat the administration of EPI or NE as in the previous question.  Do the responses
+	look similar? (ANS: <select name="Ans"><option selected> <option>yes</select>).
+	<P>
+	<LI>Finally, experiment with the effects of a very strong vasoconstrictor like angiotensin
+	("t") or a pure vasodilator ("y") on the action of EPI and NE.  Notice that the alpha-1
+	vasoconstrictor effect of NE is enhanced with angiotensin on board and the reflex
+	bradycardia induced by the parasympathetic system tries to keep the mean arterial pressure
+	low.
+	
+</OL>
+</BODY>
+</HTML>
