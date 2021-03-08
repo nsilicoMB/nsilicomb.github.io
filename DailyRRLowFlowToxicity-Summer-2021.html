@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+<HTML>
+<HEAD>
+
+<TITLE>Summer 2019 Low Flow Toxicity</TITLE>
+
+</HEAD>
+<BODY ALIGN=LEFT BACKGROUND="./images/RRKayak-BnW-Emboss-Wide.jpg">
+
+<BODY BACKGROUND="./images/ContentsBkg-KayakEmboss.jpg" BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#5500FF" ALINK="#0000FF">
+
+
+<TABLE WIDTH=900 BORDER=0>
+<TR>
+
+	<TD ALIGN=CENTER VALIGN=TOP WIDTH="25"><A HREF="../index.html"><IMG SRC="./images/Microcystin-no-background.gif" WIDTH="120" HEIGHT="130" BORDER="0"></A></TD>
+	<TD ALIGN=CENTER VALIGN=TOP WIDTH="25"></TD>
+
+<TD WIDTH=610>
+<CENTER><IMG SRC="./images/LowFlowLogo.jpg" WIDTH="493" HEIGHT="77"></CENTER>
+
+<BLOCKQUOTE>
+<H2 ALIGN=LEFT><FONT COLOR="#78021C">by</FONT></H2>
+<A HREF="../biosketch2.html"><H2 ALIGN=LEFT><FONT COLOR="#78021C">Michael B. Bolger, Ph.D.</FONT></H2></A>
+
+<P>
+<H2 ALIGN=LEFT><FONT COLOR="#78021C">Daily Graph of Russian River Low Flow Toxicity</FONT></H2>
+
+<A HREF="./PeriodicBlog-on-RussianRiverToxicity.html">Click here for a Periodic Blog on Observed Cyanotoxin levels and Factors that influence Russian River Toxicity</A>
+<br>
+<br>
+<b>IMPORTANT DISCLAIMER:
+The prediction of anatoxin concentrations and the risk of toxicity to humans and animals presented on this web page should not be used to
+make decisions about personal safety or the use of Russian River recreation opportunities.</b> These predictions are based on a simple mathematical
+relationship between river water temperature, river flow, and air temperature that will never be absolutely accurate. My intention for the
+publication of this model is to help the Sonoma County Water Agency and the Sonoma County Board of Supervisors to exercise adaptive management
+of Russian River flow and thus avoid the bloom of blue-green algae and potential river toxicity.
+<br>
+<br>
+Sonoma County residents: Feel free to check this web site as often as you'd like to see the predicted Anatoxin-a concentration in Russian River.
+This simulation model does not provide specific geographical locations along the river for these predictions. The model uses daily river flow data
+from the gauge at Hacienda, water temperature at 3:00 PM in Guerneville. and air temperature also from Guerneville. If you'd like more
+detailed information about the equations used and background of the model development you can download the following report.
+<A HREF="./Bolger-Report-on-Water-Quality-and-Cyanotoxin-Levels-due-to-Lower-Flows-2016-09-11-w-Refs.pdf">Report on Water Quality, Draft EIR, and Simulation Model</A>
+<br>
+<A HREF="./DailyRRLowFlowToxicity-Derivative.html">Click here for a plot of the predicted change in daily anatoxin concentration</A>
+<br>
+Please don't let the Sonoma County Board of Supervisors (SCBOD) ignore this easily avoidable and potentially life-threatening
+Russian River blue-green algae related toxicity! Encourage your supervisor and the Sonoma County Water Agency (SCWA) to adopt adaptive management of
+Russian River flows. Let's use an advanced computer model to predict when to expect a bloom of blue-green algae and the subsequent increase in cyanotoxin
+levels, and then adjust the river flow to easily avoid the potential toxicity.<br>
+Click <A HREF="./DailyRRLowFlowToxicity.html">here to see the historical predictions</A> from 2015 to present.<br>
+<br>
+NOTE: The water temperature (black line) has been <b>divided by 10</b> so it can be plotted with anatoxin-a on the Left Y-axis.<br>
+
+  <head>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+<!--        ['date', 'data1', 'data2', 'percentage'],
+<!--          data.addColumn('string', 'Date');
+<!--          data.addColumn('number', 'Anatoxin');
+<!--          data.addRows([
+-->
+			['Date', 'Obs. Anatoxin-a','Pred. Anatoxin-a', 'Water Temp./10', 'RR Flow (cfs)'],
+			['3/1/2021',     0, 0,5.486, 287],
+			['3/2/2021',     0, 0,5.414, 274],
+			['3/3/2021',     0, 0,5.414, 260],
+			['3/4/2021',     0, 0,5.558, 248],
+			['3/5/2021',     0, 0,5.522, 232]
+		]);
+
+        var options = {
+          title: 'Observed and Predicted Daily Russian River Anatoxin-a Concentration (Summer 2021)',
+          hAxis: {title: 'Date', showTextEvery: 5, slantedText: true, slantedTextAngle: 90},
+          vAxes: {0:  {titleTextStyle: {color: "red", fontSize: 25}, title: 'Aanatoxin-a ug/L and Water Temp. (Deg. F) / 10', viewWindowMode:'explicit',
+                      viewWindow:{
+                                  max:14,
+                                  min:0
+                                  },
+                      gridlines: {color: '#333', count: 5},
+                      },
+                  1: {titleTextStyle: {color: "blue", fontSize: 30}, title: 'log RR Flow (cfs)', viewWindowMode: 'explicit',
+                  	  viewWindow:{
+                  	  			  max:100000,
+                  	  			  min:10
+                  	  			  },
+                      gridlines: {color: 'transparent'},
+                      scaleType: 'log',
+                      format:"####"},
+                  },
+          series: {0:{targetAxisIndex:0},
+                   1:{targetAxisIndex:0},
+                   2:{targetAxisIndex:0},
+                   3:{targetAxisIndex:1},
+                  },
+          colors: ["red", "green", "black", "blue"],
+          chartArea:{left:100,top:100, width:600, height:300},
+        };
+        var chart = new google.visualization.LineChart(document.getElementById('chart_id'));
+        chart.draw(data, options);
+      }
+</script>
+
+<div id="chart_id" style="width: 900px; height: 500px;"></div>
+
+ </head>
+
+
+<P>
+My recommendation is for Sonoma County Residents to contact your supervisor and encourage them to instruct SCWA to utilize this type of
+simulation model to manage the Russian River flows when the conditions of flow, water temperature, and air temperature could give rise to this
+type of toxicity.
+<br>
+Here is a link to the Sonoma County Dept. of Health Services web page for current data on Blue-Green Algae and cyanobacteria:
+<br>
+<a href="http://www.sonoma-county.org/health/services/bluegreen.asp#Content" target="_blank">SCDHS Blue-Green Algae</a>
+<br>
+Here is a link to the State Water Resources Control Board (SWRB) web page for current data and a
+<A HREF="https://mywaterquality.ca.gov/habs/where/freshwater_events.html">map of Blue-green algae and cyanobacteria outbreaks</A>
+in California.
+<br>
+
+<!-- <B>NOTE:</B> As of June 7th 2020, the blue-green algae page on the SCDHS website has been removed. The link above will remain here assuming the
+SCDHS information will return later in the summer of 2020.<br> -->
+<B>NOTE:</B> As of June 25th 2020, SCDHS provided a notice that blue-green algae was observed in Salmon Creek Lagoon and that human sickness
+was reported. An observed value of 3 ug/L anatoxin on 6/25/2020 was added to the graph to note this event. Many areas of Clear Lake also
+had observed blue-green algae toxicity.<br>
+<B>NOTE:</B> On July 22nd 2020, SWRB web page reported the occurance of blue-green algae in Lake Ralphine (Santa Rosa). An observed value of
+3 ug/L anatoxin was added to the toxicity model charts to mark this occurance.<br>
+<B>NOTE:</B> On August 17, and 27, 2020, the Sonoma County Health Department sampled several Russian River sites from Cloverdale to Monte Rio
+and did not find any evidence of a blue-green algae bloom or anatoxin-A concentration.
+
+<br>
+
+<P>
+Thanks,
+Mike
+<BR>
+If you have questions, you can E-mail me at:
+<A HREF="mailto:labsoft@comcast.net"><I>labsoft@comcast.net</I></A>
+</P>
+
+<!-- hitwebcounter Code START -->
+<a href="http://www.hitwebcounter.com" target="_blank">
+<img src="http://hitwebcounter.com/counter/counter.php?page=6537162&style=0006&nbdigits=5&type=page&initCount=0" title="." Alt="."   border="0" >
+</a>                                        <br/>
+                                        <!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com" title="Traffic Counter"
+                                        target="_blank" style="font-family: Geneva, Arial, Helvetica;
+                                        font-size: 11px; color: #85948C; text-decoration: underline ;"><em>Traffic Counter                                        </em>
+                                        </a>
+<BR>
+<BR>
+
+  <IMG SRC="./images/footer-simplus.jpg" ALIGN=CENTER WIDTH="560" HEIGHT="25" ISMAP USEMAP="#footer" BORDER="0">
+
+</BLOCKQUOTE>
+
+</TD>
+</TR>
+</TABLE>
+
+</BODY>
+
+<MAP NAME="footer">
+	<AREA SHAPE="rect" COORDS="0,0 128,24" HREF="https://pharmacyschool.usc.edu/">
+	<AREA SHAPE="rect" COORDS="155,0 315,24" HREF="http://www.simulations-plus.com">
+	<AREA SHAPE="rect" COORDS="407,0 475,24" HREF="mailto:labsoft@comcast.net">
+	<AREA SHAPE="rect" COORDS="500,0 559,24" HREF="index.html">
+
+</MAP>
+
+</HTML>
