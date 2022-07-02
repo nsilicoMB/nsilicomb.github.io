@@ -1,0 +1,458 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+<HTML>
+<HEAD>
+
+<TITLE>Summer 2021 Low Flow Toxicity</TITLE>
+
+</HEAD>
+<BODY ALIGN=LEFT BACKGROUND="./images/RRKayak-BnW-Emboss-Wide.jpg">
+
+<BODY BACKGROUND="./images/ContentsBkg-KayakEmboss.jpg" BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000FF" VLINK="#5500FF" ALINK="#0000FF">
+
+
+<TABLE WIDTH=900 BORDER=0>
+<TR>
+
+	<TD ALIGN=CENTER VALIGN=TOP WIDTH="25"><A HREF="../index.html"><IMG SRC="./images/Microcystin-no-background.gif" WIDTH="120" HEIGHT="130" BORDER="0"></A></TD>
+	<TD ALIGN=CENTER VALIGN=TOP WIDTH="25"></TD>
+
+<TD WIDTH=610>
+<CENTER><IMG SRC="./images/LowFlowLogo.jpg" WIDTH="493" HEIGHT="77"></CENTER>
+
+<BLOCKQUOTE>
+<H2 ALIGN=LEFT><FONT COLOR="#78021C">by</FONT></H2>
+<A HREF="../biosketch2.html"><H2 ALIGN=LEFT><FONT COLOR="#78021C">Michael B. Bolger, Ph.D.</FONT></H2></A>
+
+<P>
+<H2 ALIGN=LEFT><FONT COLOR="#78021C">Daily Graph of Russian River Low Flow Toxicity</FONT></H2>
+
+<A HREF="./PeriodicBlog-on-RussianRiverToxicity.html">Click here for a Periodic Blog on Observed Cyanotoxin levels and Factors that influence Russian River Toxicity</A>
+<br>
+<br>
+<b>IMPORTANT DISCLAIMER:
+The prediction of anatoxin concentrations and the risk of toxicity to humans and animals presented on this web page should not be used to
+make decisions about personal safety or the use of Russian River recreation opportunities.</b> These predictions are based on a simple mathematical
+relationship between river water temperature, river flow, and air temperature that will never be absolutely accurate. My intention for the
+publication of this model is to help the Sonoma County Water Agency and the Sonoma County Board of Supervisors to exercise adaptive management
+of Russian River flow and thus avoid the bloom of blue-green algae and potential river toxicity.
+<br>
+<br>
+Sonoma County residents: Feel free to check this web site as often as you'd like to see the predicted Anatoxin-a concentration in Russian River.
+This simulation model does not provide specific geographical locations along the river for these predictions. The model uses daily river flow data
+from the gauge at Hacienda, water temperature at 3:00 PM in Guerneville. and air temperature also from Guerneville. If you'd like more
+detailed information about the equations used and background of the model development you can download the following report.
+<A HREF="./Bolger-Report-on-Water-Quality-and-Cyanotoxin-Levels-due-to-Lower-Flows-2016-09-11-w-Refs.pdf">Report on Water Quality, Draft EIR, and Simulation Model</A>
+<br>
+<A HREF="./DailyRRLowFlowToxicity-Derivative.html">Click here for a plot of the predicted change in daily anatoxin concentration</A>
+<br>
+Please don't let the Sonoma County Board of Supervisors (SCBOD) ignore this easily avoidable and potentially life-threatening
+Russian River blue-green algae related toxicity! Encourage your supervisor and the Sonoma County Water Agency (SCWA) to adopt adaptive management of
+Russian River flows. Let's use an advanced computer model to predict when to expect a bloom of blue-green algae and the subsequent increase in cyanotoxin
+levels, and then adjust the river flow to easily avoid the potential toxicity.<br>
+Click <A HREF="./DailyRRLowFlowToxicity.html">here to see the historical predictions</A> from 2015 to present.<br>
+<br>
+
+  <head>
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+<!--        ['date', 'data1', 'data2', 'percentage'],
+<!--          data.addColumn('string', 'Date');
+<!--          data.addColumn('number', 'Anatoxin');
+<!--          data.addRows([
+-->
+			['Date', 'Obs. Anatoxin-a','Pred. Anatoxin-a', 'Water Temp.', 'RR Flow (cfs)'],
+			['3/1/2021',     0, 0,54.86, 287],
+			['3/2/2021 ',     0, 0,54.14, 274],
+			['3/3/2021 ',     0, 0,54.14, 260],
+			['3/4/2021 ',     0, 0,55.58, 248],
+			['3/5/2021 ',     0, 0,55.22, 232],
+			['3/6/2021 ',     0, 0,56.3, 246],
+			['3/7/2021 ',     0, 0,55.76, 249],
+			['3/8/2021 ',     0, 0,54.86, 256],
+			['3/9/2021 ',     0, 0,53.96, 262],
+			['3/10/2021',     0, 0,53.24, 365],
+			['3/11/2021',     0, 0,52.7, 645],
+			['3/12/2021',     0, 0,53.24, 737],
+			['3/13/2021',     0, 0,54.32, 638],
+			['3/14/2021',     0, 0,53.24, 556],
+			['3/15/2021',     0, 0,52.34, 626],
+			['3/16/2021',     0, 0,52.52, 708],
+			['3/17/2021',     0, 0,52.16, 618],
+			['3/18/2021',     0, 0,52.52, 649],
+			['3/19/2021',     0, 0,54.5, 911],
+			['3/20/2021',     0, 0,54.14, 869],
+			['3/21/2021',     0, 0,55.4, 733],
+			['3/22/2021',     0, 0,56.12, 627],
+			['3/23/2021',     0, 0,56.84, 550],
+			['3/24/2021',     0, 0,56.84, 493],
+			['3/25/2021',     0, 0,58.1, 445],
+			['3/26/2021',     0, 0,58.46, 404],
+			['3/27/2021',     0, 0,59.18, 365],
+			['3/28/2021',     0, 0,59.9, 333],
+			['3/29/2021',     0, 0,60.26, 306],
+			['3/30/2021',     0, 0,60.62, 286],
+			['3/31/2021',     0, 0,61.16, 266],
+			['4/1/2021 ',     0, 0,62.24, 250],
+			['4/2/2021 ',     0, 0,61.88, 235],
+			['4/3/2021 ',     0, 0,60.62, 221],
+			['4/4/2021 ',     0, 0,61.52, 213],
+			['4/5/2021 ',     0, 0,60.44, 207],
+			['4/6/2021 ',     0, 0,60.8, 198],
+			['4/7/2021 ',     0, 0,61.88, 187],
+			['4/8/2021 ',     0, 0,62.24, 164],
+			['4/9/2021 ',     0, 0,63.32, 132],
+			['4/10/2021',     0, 0,64.04, 109],
+			['4/11/2021',     0, 0,64.04, 103],
+			['4/12/2021',     0, 0,64.58, 106],
+			['4/13/2021',     0, 0,64.76, 108],
+			['4/14/2021',     0, 0,64.4, 188],
+			['4/15/2021',     0, 0,64.22, 186],
+			['4/16/2021',     0, 0,64.04, 155],
+			['4/17/2021',     0, 0,64.58, 93],
+			['4/18/2021',     0, 0,65.48, 89],
+			['4/19/2021',     0, 0,65.66, 88],
+			['4/20/2021',     0, 0,66.74, 87],
+			['4/21/2021',     0, 0,66.56, 86],
+			['4/22/2021',     0, 0,64.4, 88],
+			['4/23/2021',     0, 0,65.48, 82],
+			['4/24/2021',     0, 0,63.68, 83],
+			['4/25/2021',     0, 0,63.5, 85],
+			['4/26/2021',     0, 0,62.06, 89],
+			['4/27/2021',     0, 0,62.96, 90],
+			['4/28/2021',     0, 0,65.3, 83],
+			['4/29/2021',     0, 0,66.74, 80],
+			['4/30/2021',     0, 0,67.28, 77],
+			['5/1/2021 ',     0, 0,68.18, 75],
+			['5/2/2021 ',     0, 0,67.64, 73],
+			['5/3/2021 ',     0, 0,69.26, 71],
+			['5/4/2021 ',     0, 0,69.98, 74],
+			['5/5/2021 ',     0, 0,70.88, 76],
+			['5/6/2021 ',     0, 0,69.98, 79],
+			['5/7/2021 ',     0, 0,70.16, 75],
+			['5/8/2021 ',     0, 0,69.62, 73],
+			['5/9/2021 ',     0, 0,69.98, 76],
+			['5/10/2021',     0, 0,69.8, 74],
+			['5/11/2021',     0, 0,69.98, 76],
+			['5/12/2021',     0, 0,69.8, 78],
+			['5/13/2021',     0, 0.0528151049728116,68.72, 77],
+			['5/14/2021',     0, 0.190570520432484,66.92, 86],
+			['5/15/2021',     0, 0.221385625405295,66.92, 89],
+			['5/16/2021',     0, 0.217116252013739,64.94, 90],
+			['5/17/2021',     0, 0.273360267986032,64.76, 91],
+			['5/18/2021',     0, 0,64.76, 91],
+			['5/19/2021',     0, 0,66.02, 92],
+			['5/20/2021',     0, 0,65.84, 91],
+			['5/21/2021',     0, 0,65.12, 89],
+			['5/22/2021',     0, 0,65.84, 87],
+			['5/23/2021',     0, 0,67.28, 87],
+			['5/24/2021',     0, 0,67.64, 89],
+			['5/25/2021',     0, 0,68.36, 87],
+			['5/26/2021',     0, 0,68.9, 84],
+			['5/27/2021',     0, 0,68.72, 88],
+			['5/28/2021',     0, 0,69.26, 84],
+			['5/29/2021',     0, 0,69.26, 85],
+			['5/30/2021',     0, 0,68.54, 87],
+			['5/31/2021',     0, 0,69.98, 87],
+			['6/1/2021 ',     0, 0,70.16, 88],
+			['6/2/2021 ',     0, 0,69.26, 90],
+			['6/3/2021 ',     0, 0,69.62, 87],
+			['6/4/2021 ',     0, 0,70.34, 84],
+			['6/5/2021 ',     0, 0,70.34, 85],
+			['6/6/2021 ',     0, 0,70.88, 86],
+			['6/7/2021 ',     0, 0,70.16, 117],
+			['6/8/2021 ',     0, 0,68.54, 111],
+			['6/9/2021 ',     0, 0,67.46, 101],
+			['6/10/2021',     0, 0.0610255983806631,67.82, 96],
+			['6/11/2021',     0, 0,68.36, 94],
+			['6/12/2021',     0, 0,70.7, 101],
+			['6/13/2021',     0, 0,73.04, 100],
+			['6/14/2021',     0.15, 0,74.12, 100],
+			['6/15/2021',     0, 0,72.68, 92],
+			['6/16/2021',     0, 0,72.86, 82],
+			['6/17/2021',     0, 0,74.3, 72],
+			['6/18/2021',     0, 0,75.92, 64],
+			['6/19/2021',     0, 0,76.28, 59],
+			['6/20/2021',     0, 0.0479376489782855,75.92, 57],
+			['6/21/2021',     0, 0.781341690783774,73.94, 55],
+			['6/22/2021',     0, 2.22502869747498,71.78, 70],
+			['6/23/2021',     0, 3.78766319695811,71.78, 57],
+			['6/24/2021',     0, 5.35024023009154,73.22, 44],
+			['6/25/2021',     0, 6.6611417486783,73.58, 46],
+			['6/26/2021',     0, 6.9739593739011,74.3, 47],
+			['6/27/2021',     0, 7.65673640703452,75.02, 48],
+			['6/28/2021',     0, 9.05324788200519,75.38, 58],
+			['6/29/2021',     0, 10.43569731705,74.84, 64],
+			['6/30/2021',     0, 11.7059156965624,75.92, 55],
+			['7/1/2021 ',     0, 13.2165354905489,75.2, 51],
+			['7/2/2021 ',     0, 14.5245255334615,75.56, 50],
+			['7/3/2021 ',     0, 15.5866125401528,75.02, 47],
+			['7/4/2021 ',     0, 17.1681140587395,74.48, 50],
+			['7/5/2021 ',     0, 18.8029019749623,73.94, 52],
+			['7/6/2021 ',     0, 20.4671283168354,74.66, 52],
+			['7/7/2021 ',     0, 22.1017466963478,73.76, 53],
+			['7/8/2021 ',     0, 23.4503730382209,74.66, 50],
+			['7/9/2021 ',     0, 24.419267684879,76.82, 48],
+			['7/10/2021',     0, 25.4885623315372,76.82, 43],
+			['7/11/2021',     0, 26.3056899469049,76.1, 43],
+			['7/12/2021',     0, 27.9929162887781,75.2, 43],
+			['7/13/2021',     0, 29.8535360827646,74.3, 43],
+			['7/14/2021',     0, 32.0107339290459,73.4, 45],
+			['7/15/2021',     0, 34.0455317753272,72.68, 47],
+			['7/16/2021',     0, 35.9273296216085,72.32, 47],
+			['7/17/2021',     0, 37.5681274678898,72.68, 45],
+			['7/18/2021',     0, 38.9352656594105,75.38, 43],
+			['7/19/2021',     0, 39.9960840389228,75.92, 43],
+			['7/20/2021',     0, 41.0617024184352,75.2, 42],
+			['7/21/2021',     0, 42.2404406099559,76.1, 40],
+			['7/22/2021',     0, 43.8888384562372,75.92, 39],
+			['7/23/2021',     0, 45.7170363025185,75.92, 38],
+			['7/24/2021',     0, 47.4182640592922,75.38, 35],
+			['7/25/2021',     0, 49.4417145743211,75.92, 37],
+			['7/26/2021',     0, 51.5644299605159,72.86, 39],
+			['7/27/2021',     0, 53.905898266821,71.42, 37],
+			['7/28/2021',     0, 55.7396002231531,73.94, 38],
+			['7/29/2021',     0, 57.7507524672449,75.2, 37],
+			['7/30/2021',     0, 59.2212678534397,75.56, 37],
+			['7/31/2021',     0, 60.5554200975316,75.38, 38],
+			['8/1/2021 ',     0, 62.3622884038367,75.02, 39],
+			['8/2/2021 ',     0, 64.4710406479286,74.12, 42],
+			['8/3/2021 ',     8.36, 66.5529928920204,73.58, 44],
+			['8/4/2021 ',     0, 68.3846611983256,74.3, 46],
+			['8/5/2021 ',     0, 70.3103765845204,73.76, 42],
+			['8/6/2021 ',     0, 72.0040043412941,73.76, 41],
+			['8/7/2021 ',     0, 73.2857158162648,73.4, 46],
+			['8/8/2021 ',     0, 74.6585652513096,73.4, 48],
+			['8/9/2021 ',     0, 76.2469930080834,73.76, 51],
+			['8/10/2021',     0, 77.8096267298956,74.66, 52],
+			['8/11/2021',     0, 78.9854761649404,73.94, 51],
+			['8/12/2021',     0, 80.2206959589269,71.42, 53],
+			['8/13/2021',     0, 81.5226838751497,70.88, 52],
+			['8/14/2021',     0, 82.8779785218078,71.78, 51],
+			['8/15/2021',     0, 84.1005664380307,72.14, 52],
+			['8/16/2021',     0, 84.7618940533984,72.86, 54],
+			['8/17/2021',     0, 84.9905887000566,73.94, 47],
+			['8/18/2021',     0, 85.7359766162794,73.22, 46],
+			['8/19/2021',     0, 86.7508712629375,71.96, 45],
+			['8/20/2021',     0, 87.8663401659393,70.7, 39],
+			['8/21/2021',     0, 89.4713585454516,69.8, 38],
+			['8/22/2021',     0, 91.0566079804965,70.52, 43],
+			['8/23/2021',     0, 92.3109461720172,69.26, 52],
+			['8/24/2021',     0, 93.722261558212,69.98, 48],
+			['8/25/2021',     0, 94.8913298645171,70.34, 48],
+			['8/26/2021',     0, 95.9555277107984,71.96, 45],
+			['8/27/2021',     0, 96.1508223574566,71.96, 41],
+			['8/28/2021',     0, 96.4746421514431,73.94, 35],
+			['8/29/2021',     0, 96.7716619454296,73.76, 31],
+			['8/30/2021',     0, 97.7620001369503,73.22, 36],
+			['8/31/2021',     0, 98.9746338587625,71.96, 34],
+			['9/1/2021 ',     0, 100.871535815095,70.52, 31],
+			['9/2/2021 ',     0, 103.262015707658,69.08, 37],
+			['9/3/2021 ',     0, 105.100829186622,68.72, 39],
+			['9/4/2021 ',     0, 106.773900879079,69.8, 37],
+			['9/5/2021 ',     0, 108.129580771643,70.16, 39],
+			['9/6/2021 ',     0, 108.801933015735,69.62, 39],
+			['9/7/2021 ',     0, 109.26064840193,70.88, 38],
+			['9/8/2021 ',     0, 110.011400646022,72.32, 34],
+			['9/9/2021 ',     0, 110.802916032216,71.6, 32],
+			['9/10/2021',     0, 111.722631418411,71.42, 30],
+			['9/11/2021',     0, 112.965299724716,71.06, 35],
+			['9/12/2021',     0, 114.523571417174,71.06, 40],
+			['9/13/2021',     0, 115.968465623594,69.8, 42],
+			['9/14/2021',     0, 117.462879599264,69.62, 41],
+			['9/15/2021',     0, 118.716181555596,68.18, 43],
+			['9/16/2021',     0, 120.190832070625,67.64, 42],
+			['9/17/2021',     0, 121.326059827399,67.28, 45],
+			['9/18/2021',     0, 122.360893549211,65.12, 48],
+			['9/19/2021',     0, 123.269291395492,67.46, 49],
+			['9/20/2021',     0, 123.795319152266,68.54, 51],
+			['9/21/2021',     0, 123.924057343787,66.92, 49],
+			['9/22/2021',     0, 123.465677137773,68.72, 47],
+			['9/23/2021',     0, 123.523707054551,69.98, 43],
+			['9/24/2021',     0, 123.652294970774,69.44, 40],
+			['9/25/2021',     0, 123.684524887552,68.54, 43],
+			['9/26/2021	',     0, 124.314143267064,68, 44.4],
+			['9/27/2021	',     0, 125.330541113345,66.02, 43.3],
+			['9/28/2021	',     0, 126.463791628374,66.92, 44.4],
+			['9/29/2021	',     0, 127.081389474656,65.3, 44.4],
+			['9/30/2021	',     0, 127.553227705707,64.76, 44.4],
+			['10/1/2021	',     0, 127.554742992808,65.12, 43.3],
+			['10/2/2021	',     0, 127.644981223859,65.48, 38.8],
+			['10/3/2021	',     0, 127.415819454911,65.66, 37.8],
+			['10/4/2021	',     0, 127.094857685962,65.84, 36.7],
+			['10/5/2021	',     0, 126.921372973063,64.4, 36.7],
+			['10/6/2021	',     0, 127.4537665694,64.22, 37.8],
+			['10/7/2021	',     0, 128.037695750698,62.96, 38.8],
+			['10/8/2021	',     0, 128.766541550821,61.52, 42.1],
+			['10/9/2021	',     0, 129.250587350944,61.16, 42.1],
+			['10/10/2021	',     0, 129.523716532242,61.16, 41],
+			['10/11/2021	',     0, 129.385710128579,60.62, 41],
+			['10/12/2021	',     0, 129.065360525377,60.62, 37.8],
+			['10/13/2021	',     0, 128.639810922175,58.46, 37.8],
+			['10/14/2021	',     0, 128.324444643987,58.64, 38.8],
+			['10/15/2021	',     0, 127.697278365799,59, 39.9],
+			['10/16/2021	',     0, 127.094407547098,59.54, 39.9],
+			['10/17/2021	',     0, 126.124336728396,58.28, 42.1],
+			['10/18/2021	',     0, 125.625930324733,58.28, 45.5],
+			['10/19/2021	',     0, 125.120528526034,56.84, 47.8],
+			['10/20/2021	',     0, 124.618926727335,56.84, 52.4],
+			['10/21/2021	',     0, 124.011777124133,57.56, 57.2],
+			['10/22/2021	',     0, 123.185787087121,59.54, 221],
+			['10/23/2021	',     0, 122.008957161381,60.08, 226],
+			['10/24/2021	',     0, 120.761522871995,59.9, 6510],
+			['10/25/2021	',     0, 119.438707335629,59.36, 20500],
+			['10/26/2021	',     0, 115.743398428059,59, 11700],
+			['10/27/2021	',     0, 112.19921997056,59.9, 5100],
+			['10/28/2021	',     0, 97.7652175582074,60.98, 2930],
+			['10/29/2021	',     0, 77.7594146785887,61.88, 1930],
+			['10/30/2021	',     0, 60.5009339734238,62.24, 1370],
+			['10/31/2021	',     0, 47.3061563278113,61.7, 1080],
+			['11/1/2021	',     0, 36.4676992522277,61.16, 939],
+			['11/2/2021	',     0, 27.2349285561378,60.98, 1090],
+			['11/3/2021	',     0, 19.0002800173305,60.98, 984],
+			['11/4/2021	',     0, 11.2965280235828,61.7, 947],
+			['11/5/2021	',     0, 4.00539625848825,59.72, 884],
+			['11/6/2021	',     0, 0,58.46, 793],
+			['11/7/2021	',     0, 0,57.56, 713],
+			['11/8/2021	',     0, 0,56.48, 643],
+			['11/9/2021	',     0, 0,55.58, 3050],
+			['11/10/2021	',     0, 0,57.2, 2770],
+			['11/11/2021	',     0, 0,57.56, 2140],
+			['11/12/2021	',     0, 0,58.46, 1550],
+			['11/13/2021	',     0, 0,59, 1220],
+			['11/14/2021	',     0, 0,59, 1000],
+			['11/15/2021	',     0, 0,58.82, 853],
+			['11/16/2021	',     0, 0,59.9, 752],
+			['11/17/2021	',     0, 0,59, 677],
+			['11/18/2021	',     0, 0,57.56, 612],
+			['11/19/2021	',     0, 0,58.1, 566],
+			['11/20/2021	',     0, 0,58.28, 527],
+			['11/21/2021	',     0, 0,56.66, 490],
+			['11/22/2021	',     0, 0,55.4, 460],
+			['11/23/2021	',     0, 0,55.04, 430],
+			['11/24/2021	',     0, 0,54.14, 404],
+			['11/25/2021	',     0, 0,53.42, 384],
+			['11/26/2021	',     0, 0,53.6, 362],
+			['11/27/2021	',     0, 0,54.5, 346],
+			['11/28/2021	',     0, 0,55.4, 328],
+			['11/29/2021	',     0, 0,55.76, 315],
+			['11/30/2021	',     0, 0,55.76, 302]
+		]);
+
+        var options = {
+          title: 'Observed and Predicted Daily Russian River Anatoxin-a Concentration (Spring, Summer, and Fall of 2021)',
+          hAxis: {title: 'Date', showTextEvery: 5, slantedText: true, slantedTextAngle: 90},
+          vAxes: {0:  {titleTextStyle: {color: "red", fontSize: 25}, title: 'Aanatoxin-a ug/L and Water Temp. (Deg. F)', viewWindowMode:'explicit',
+                      viewWindow:{
+                                  max:125,
+                                  min:0
+                                  },
+                      gridlines: {color: '#333', count: 5},
+                      },
+                  1: {titleTextStyle: {color: "blue", fontSize: 30}, title: 'log RR Flow (cfs)', viewWindowMode: 'explicit',
+                  	  viewWindow:{
+                  	  			  max:100000,
+                  	  			  min:10
+                  	  			  },
+                      gridlines: {color: 'transparent'},
+                      scaleType: 'log',
+                      format:"####"},
+                  },
+          series: {0:{targetAxisIndex:0},
+                   1:{targetAxisIndex:0},
+                   2:{targetAxisIndex:0},
+                   3:{targetAxisIndex:1},
+                  },
+          colors: ["red", "green", "black", "blue"],
+          chartArea:{left:100,top:100, width:600, height:300},
+        };
+        var chart = new google.visualization.LineChart(document.getElementById('chart_id'));
+        chart.draw(data, options);
+      }
+</script>
+
+<div id="chart_id" style="width: 900px; height: 500px;"></div>
+
+ </head>
+
+
+<P>
+My recommendation is for Sonoma County Residents to contact your supervisor and encourage them to instruct SCWA to utilize this type of
+simulation model to manage the Russian River flows when the conditions of flow, water temperature, and air temperature could give rise to this
+type of toxicity.
+<br>
+Here is a link to the Sonoma County Dept. of Health Services web page for current data on Blue-Green Algae and cyanobacteria:
+<br>
+<a href="https://sonomacounty.ca.gov/Health/Environmental-Health/Water-Quality/Blue-Green-Algae/" target="_blank">SCDHS Blue-Green Algae</a>
+<br>
+Here is a link to the State Water Resources Control Board (SWRB) web page for current data and a
+<A HREF="https://mywaterquality.ca.gov/habs/where/freshwater_events.html">map of Blue-green algae and cyanobacteria outbreaks</A>
+in California.
+<br>
+If you are interested in coliform bacteria levels, here is a link to the Sonoma Dept. of Health Services web page for coliform bacteria:
+<br>
+<a href="https://sonomacounty.ca.gov/Health/Environmental-Health/Water-Quality/Fresh-Water-Quality/" target="_blank">Coliform bacteria</a>
+<br>
+<br>
+<B>NOTE:</B> On August 3, 2021 the Sonoma County Department of Health announced that they would post Toxic Algae Alert warning on the 10
+most frequented public beaches. They also reported Anatoxin-a concentrations measured at 5 separate beaches. <U>The highest level reported was 8.36 ug/L</U>
+and on Aug. 8, 2021 the Santa Rosa Press Democrat published an article entitled --
+<a href="./images/Press Democrat Article about Toxic Algae 2021-08-08.jpg" target="_blank">Toxic Algae Discovered in Russian River</a>.
+According to the EPA and the Utah Department of Health, Anatoxin-a levels less than 4 ug/L are safe for short term exposure in drinking water.
+Anatoxin-a levels greater than 15 ug/L is the Warning level there is a potential for long-term illness. Short-term effects (e.g., skin and
+eye irritation, nausea, vomiting, and diarrhea). The Danger level is greater than 90 ug/L and it is advised for everyone to stay away from the
+waterbody <a href="https://documents.deq.utah.gov/water-quality/standards-technical-services/harmful-algal-blooms/DWQ-2021-036661.pdf#page=4" target="_blank">
+Utah Advisory Level reference</a>.<br>
+<!-- <B>NOTE:</B> As of June 7th 2020, the blue-green algae page on the SCDHS website has been removed. The link above will remain here assuming the
+SCDHS information will return later in the summer of 2020.<br> -->
+<B>NOTE:</B> As of June 25th 2020, SCDHS provided a notice that blue-green algae was observed in Salmon Creek Lagoon and that human sickness
+was reported. An observed value of 3 ug/L anatoxin on 6/25/2020 was added to the graph to note this event. Many areas of Clear Lake also
+had observed blue-green algae toxicity.<br>
+<B>NOTE:</B> On July 22nd 2020, SWRB web page reported the occurance of blue-green algae in Lake Ralphine (Santa Rosa). An observed value of
+3 ug/L anatoxin was added to the toxicity model charts to mark this occurance.<br>
+<B>NOTE:</B> On August 17, and 27, 2020, the Sonoma County Health Department sampled several Russian River sites from Cloverdale to Monte Rio
+and did not find any evidence of a blue-green algae bloom or anatoxin-A concentration.
+
+<br>
+
+<P>
+Thanks,
+Mike
+<BR>
+If you have questions, you can E-mail me at:
+<A HREF="mailto:labsoft@comcast.net"><I>labsoft@comcast.net</I></A>
+</P>
+
+<!-- hitwebcounter Code START -->
+<a href="http://www.hitwebcounter.com" target="_blank">
+<img src="http://hitwebcounter.com/counter/counter.php?page=6537162&style=0006&nbdigits=5&type=page&initCount=0" title="." Alt="."   border="0" >
+</a>                                        <br/>
+                                        <!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com" title="Traffic Counter"
+                                        target="_blank" style="font-family: Geneva, Arial, Helvetica;
+                                        font-size: 11px; color: #85948C; text-decoration: underline ;"><em>Traffic Counter                                        </em>
+                                        </a>
+<BR>
+<BR>
+
+  <IMG SRC="./images/footer-simplus.jpg" ALIGN=CENTER WIDTH="560" HEIGHT="25" ISMAP USEMAP="#footer" BORDER="0">
+
+</BLOCKQUOTE>
+
+</TD>
+</TR>
+</TABLE>
+
+</BODY>
+
+<MAP NAME="footer">
+	<AREA SHAPE="rect" COORDS="0,0 128,24" HREF="https://pharmacyschool.usc.edu/">
+	<AREA SHAPE="rect" COORDS="155,0 315,24" HREF="http://www.simulations-plus.com">
+	<AREA SHAPE="rect" COORDS="407,0 475,24" HREF="mailto:labsoft@comcast.net">
+	<AREA SHAPE="rect" COORDS="500,0 559,24" HREF="index.html">
+
+</MAP>
+
+</HTML>
